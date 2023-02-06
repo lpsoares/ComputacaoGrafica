@@ -1,0 +1,18 @@
+INHERIT: "active-handout.yml"
+
+site_name: "Computação Gráfica"
+site_author: "Luciano Pereira Soares"
+
+extra:
+    materia: Computação Gráfica
+    professor: Luciano Pereira Soares
+    semestre: 2023/1
+    url_acompanhamentos: http://localhost:8081
+    id_curso: 10
+
+
+nav:
+    - Home: index.md
+
+    - Aulas:
+        - "01 - Introdução": aulas/01-introducao/index.md
