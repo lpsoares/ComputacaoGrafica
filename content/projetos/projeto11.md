@@ -25,7 +25,9 @@ O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de
 
 O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
 
-Obs: Para esse fase do projeto teste todos os exemplos 2D fornecidos.
+Para esse fase do projeto teste todos os exemplos 2D fornecidos. Ou seja, os testes de 0 até 5.
+
+Implemente as funções GL.polypoint2D(), GL.polyline2D() e GL.triangleSet2D()
 
 ## Instruções
 
