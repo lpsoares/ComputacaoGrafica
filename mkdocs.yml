@@ -16,3 +16,8 @@ nav:
 
     - Aulas:
         - "01 - Introdução": aulas/01-introducao/index.md
+        - "02 - Desenhando Triângulos e X3D": aulas/02-desenhando_triangulos_e_X3D/index.md
+
+    - Projetos:
+        - "Projeto 1.1": projetos/projeto11.md
+

@@ -1,6 +1,6 @@
 # Introdução a computação gráfica
 
-Nesta primeira aula veremos os fundamentos da computação gráfica e faremos atividades de projeção e desenho de linhas.
+Nesta primeira aula veremos os fundamentos da computação gráfica e faremos atividades de projeção e desenho de pontos e linhas.
 
 !!! pdf
     ![](aula1_introducao.pdf)
