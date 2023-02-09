@@ -2,8 +2,11 @@
 
 Nesta primeira aula veremos os fundamentos da computação gráfica e faremos atividades de projeção e desenho de pontos e linhas.
 
-!!! pdf
-    ![](aula1_introducao.pdf)
+<!-- !!! pdf
+    ![](aula1_introducao.pdf) -->
+
+<embed height="600" src="aula1_introducao.pdf" type="application/pdf" width="100%">
+
 
 # Atividades
 
