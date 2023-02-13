@@ -1,0 +1,2 @@
+- Mover "Desenhando Triângulos e X3D" (aula 2) para a primeira aula
+- Mover Renderização (aula 3) para o começo do curso, possivelmente primeira aula
