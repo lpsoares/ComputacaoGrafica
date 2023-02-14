@@ -6,6 +6,8 @@ Nesta aula estudaremos como implementar em um renderizador o desenho de triângu
     ![](aula2_triangulos_x3d.pdf) -->
 
 <embed height="600" src="aula2_triangulos_x3d.pdf" type="application/pdf" width="100%">
+[PDF](aula2_triangulos_x3d.pdf)
+[PPT](aula2_triangulos_x3d.pptx)
 
 # Atividades
 

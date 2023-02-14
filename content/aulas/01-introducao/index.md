@@ -6,7 +6,8 @@ Nesta primeira aula veremos os fundamentos da computação gráfica e faremos at
     ![](aula1_introducao.pdf) -->
 
 <embed height="600" src="aula1_introducao.pdf" type="application/pdf" width="100%">
-
+[PDF](aula1_introducao.pdf)
+[PPT](aula1_introducao.pptx)
 
 # Atividades
 
