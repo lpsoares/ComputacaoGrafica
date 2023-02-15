@@ -18,7 +18,7 @@ nav:
         - "01 - Introdução": aulas/01-introducao/index.md
         - "02 - Desenhando Triângulos e X3D": aulas/02-desenhando_triangulos_e_X3D/index.md
         - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
-        #- "04 - Coordenadas Homogêneas e Quatérnions": aulas/04-coordenadas_homogeneas_e_quaternions/index.md
+        - "04 - Coordenadas Homogêneas e Quatérnions": aulas/04-coordenadas_homogeneas_e_quaternions/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
