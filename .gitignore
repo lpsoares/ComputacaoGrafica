@@ -3,5 +3,5 @@
 ~$*
 docs*/
 env/
-
+.ipynb_checkpoints
 
