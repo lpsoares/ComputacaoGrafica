@@ -8,6 +8,4 @@ Nesta aula
 
 # Atividades
 
-[Atividade 1 - Quaternions - Parte 1](Atividade_Quaternions.docx)
-
-[Atividade 2 - Teste](atividade.ipynb)
+[Atividade](atividade.ipynb)
