@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Projeto12 - Computação Gráfica</title>
+        <title>Projeto 1.2 - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -131,7 +131,15 @@
         
   
     <li>
-      <a href="../../aulas/04-coordenadas_homogeneas_e_quaternions/">04 - Coordenadas Homogêneas e Quatérnions</a>
+      <a href="../../aulas/04-coordenadas_homogeneas_e_quaternios/">04 - Coordenadas Homogêneas e Quatérnios</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../../aulas/05-sistemas_de_coordenadas/">05 - Sistemas de Coordenadas</a>
     </li>
   
 
@@ -141,7 +149,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Projetos</span>
     <ul>
       
@@ -149,6 +157,42 @@
   
     <li>
       <a href="../projeto11/">Projeto 1.1</a>
+    </li>
+  
+
+      
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">Projeto 1.2</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#codigo-base">Código Base</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#instrucoes">Instruções</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#entrega">Entrega</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#honestidade-academica">Honestidade acadêmica</a>
+          </li>
+          
+        
+      </ul>
     </li>
   
 
@@ -166,14 +210,18 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Projeto12</li>
+                  
+                    <li>Projetos</li>
+                  
+                
+                <li>Projeto 1.2</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <p><strong>Projeto 1 – Rasterização : 2ª parte</strong></p>
-<p><strong>Data de entrega:</strong> ?/?/2023, via Blackboard.</p>
+<p><strong>Data de entrega:</strong> 6/3/2023, via Blackboard.</p>
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou).</p>
 <p><strong>Entrega:</strong> dupla ou individual.</p>
 <p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós TriangleSet, TriangleStripSet, IndexedTriangleStripSet, Box. Além disso, você deverá usar os dados (posição, fov, orientação) da câmera. No final, você terá um renderizador funcional que rodará por software.</p>
@@ -183,11 +231,11 @@
 <p><strong>Tarefa 2:</strong> fazer as transformadas de câmera (2,5 pontos)</p>
 <p><strong>Tarefa 3:</strong> fazer as transformadas de projeção perspectiva (2,5 pontos)</p>
 <p><strong>Tarefa 4:</strong> fazer as transformações para coordenadas da tela (2,5 ponto)</p>
-<p>Essas tarefas devem ser aplicadas nos exemplos: 6 - tri_3D; 7 - tira_tri; 8 - box</p>
+<p>Essas tarefas devem ser aplicadas nos exemplos: 8 - tri_3D; 9 - tira_tri; 10 - box</p>
 <h2 id="codigo-base">Código Base</h2>
 <p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.</p>
-<p>Para esse fase do projeto teste os exemplos 3D,   os testes de 0 até 5.</p>
-<p>Implemente as funções ????</p>
+<p>Para esse fase do projeto teste os exemplos 3D, no caso os testes de 8 até 10.</p>
+<p>Implemente as funções GL.triangleSet(), GL.viewpoint(), GL.transform_in(), GL.transform_out(), GL.triangleStripSet(), GL.indexedTriangleStripSet(), GL.box(), GL.indexedFaceSet().</p>
 <p>Caso o professor oriente atualizar o seu fork, faça os seguintes passos:</p>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git remote add upstream https://github.com/lpsoares/Renderizador
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git fetch upstream
@@ -211,6 +259,13 @@
       </main>
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
+          
+            <a href="../projeto11/"
+               class="ah-prev"
+               title="Projeto 1.1">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">Projeto 1.1</span>
+            </a>
           
           
         </div>
