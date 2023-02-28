@@ -33,6 +33,6 @@ nav:
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
-        #- "Projeto 1.2": projetos/projeto12.md
+        - "Projeto 1.2": projetos/projeto12.md
         #- "Projeto 1.3": projetos/projeto13.md
 
