@@ -5,7 +5,7 @@
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
-**Entrega:** dupla ou individual.
+**Entrega:** individual.
 
 Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós TriangleSet, TriangleStripSet, IndexedTriangleStripSet, Box. Além disso, você deverá usar os dados (posição, fov, orientação) da câmera. No final, você terá um renderizador funcional que rodará por software.
 
