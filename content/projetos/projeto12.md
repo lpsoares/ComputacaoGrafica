@@ -21,7 +21,7 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 
 **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto)
 
-Essas tarefas devem ser aplicadas nos exemplos: 8 - tri_3D; 9 - tira_tri; 10 - box
+Essas tarefas devem ser aplicadas nos exemplos: 8 - tri_3D; 9 - tira_tri; 10 - um_tri; 11 - box
 
 
 ## Código Base
