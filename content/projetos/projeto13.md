@@ -7,7 +7,7 @@
 
 **Entrega:** individual.
 
-Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós TriangleSet, TriangleStripSet, IndexedTriangleStripSet, Box. Além disso, você deverá usar os dados (posição, fov, orientação) da câmera. No final, você terá um renderizador funcional que rodará por software.
+Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleStripSet`, `IndexedTriangleStripSet`, `Box`. Além disso, você deverá usar os dados (posição, fov, orientação) da câmera. No final, você terá um renderizador funcional que rodará por software.
 
 
 
@@ -18,7 +18,7 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 **Tarefa 1:** suavização dos triângulos por superamostragem (2 pontos)
 
 
-Essas tarefas devem ser aplicadas nos exemplos: 6 - tri_3D; 7 - tira_tri; 8 - box
+Essas tarefas devem ser aplicadas nos exemplos: `9 - tira_tri`; `10 - um_tri`;
 
 
 ## Código Base
@@ -27,7 +27,7 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 Para esse fase do projeto teste os exemplos 3D,   os testes de 0 até 5.
 
-Implemente as funções ????
+Implemente as funções `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.box()`
 
 Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
 

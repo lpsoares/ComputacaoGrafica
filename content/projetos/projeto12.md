@@ -7,7 +7,7 @@
 
 **Entrega:** individual.
 
-Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleSet`, `TriangleStripSet`, `IndexedTriangleStripSet`, `Box`. Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó `viewpoint`. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó `Transform`. No final, você terá um renderizador funcional que rodará por software.
+Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleSet`, . Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó `viewpoint`. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó `Transform`. No final, você terá um renderizador funcional que rodará por software.
 
 ## Estrutura do Projeto
 
@@ -21,7 +21,7 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 
 **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto)
 
-Essas tarefas devem ser aplicadas nos exemplos: `8 - tri_3D`; `9 - tira_tri`; `10 - um_tri`; `11 - box`
+Essas tarefas devem ser aplicadas nos exemplos: `8 - tri_3D`; `10 - um_tri`; 
 
 
 ## Código Base
@@ -30,7 +30,7 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 Para esse fase do projeto teste os exemplos 3D, no caso os testes de 8 até 10.
 
-Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`, `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.box()`.
+Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`.
 
 Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
 
