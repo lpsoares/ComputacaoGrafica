@@ -3,4 +3,4 @@
 - Fazer todas as atividades de aula serem em código para já aproveitar no projeto
 - Simplificar a explicação da Matriz de Look-at, só é usada a forma simples de mudança de base
 - Fazer os prints do X3D só se uma variável de Debug (não sempre como atualmente)
-    
+- Ligar a impressão do grafo de cena no Renderizador
