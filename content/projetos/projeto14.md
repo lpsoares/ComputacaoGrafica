@@ -38,8 +38,7 @@ Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
 
 ```
 git remote add upstream https://github.com/lpsoares/Renderizador
-git fetch upstream
-git rebase upstream/master
+git pull upstream master
 ```
 
 Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:
