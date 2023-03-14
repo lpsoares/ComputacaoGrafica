@@ -7,19 +7,19 @@
 
 **Entrega:** individual.
 
-Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleSet`, . Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó `viewpoint`. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó `Transform`. No final, você terá um renderizador funcional que rodará por software.
+Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleSet`, . Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó `viewpoint`. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó `Transform_in`. No final, você terá um renderizador funcional que rodará por software.
 
 ## Estrutura do Projeto
 
 O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-**Tarefa 1:** fazer as transformadas no modelo (2,5 pontos)
+* **Tarefa 1:** fazer as transformadas no modelo (2,5 pontos)
 
-**Tarefa 2:** fazer as transformadas de câmera (2,5 pontos)
+* **Tarefa 2:** fazer as transformadas de câmera (2,5 pontos)
 
-**Tarefa 3:** fazer as transformadas de projeção perspectiva (2,5 pontos)
+* **Tarefa 3:** fazer as transformadas de projeção perspectiva (2,5 pontos)
 
-**Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto)
+* **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto)
 
 Essas tarefas devem ser aplicadas nos exemplos: `8 - um_tri`; `9 - var_tri`; `10 - zoom`.
 

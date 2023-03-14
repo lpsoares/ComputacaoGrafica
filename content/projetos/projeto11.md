@@ -14,11 +14,11 @@ Nesse projeto, você implementará um rasterizador para arquivos X3D muito simpl
 
 O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-**Tarefa 1:** desenho de pontos coloridos no framebuffer (1 pontos)
+* **Tarefa 1:** desenho de pontos coloridos no framebuffer (1 pontos)
 
-**Tarefa 2:** desenho de linhas coloridas no framebuffer (4 pontos)
+* **Tarefa 2:** desenho de linhas coloridas no framebuffer (4 pontos)
 
-**Tarefa 3:** desenho de triângulos coloridos no framebuffer (5 pontos)
+* **Tarefa 3:** desenho de triângulos coloridos no framebuffer (5 pontos)
 
 
 ## Código Base
