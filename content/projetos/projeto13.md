@@ -7,24 +7,19 @@
 
 **Entrega:** individual.
 
-Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleStripSet`, `IndexedTriangleStripSet`, `Box`, bem como tratar os grafos de cena, o que envolve maior suport para o `Transform`. No final, você terá um renderizador funcional que rodará por software.
+Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleStripSet`, `IndexedTriangleStripSet`, `IndexedFaceSet` bem como tratar os grafos de cena, o que envolve maior suport para o `Transform`. No final, você terá um renderizador funcional que rodará por software.
+
 
 ## Estrutura do Projeto
 
 O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-<!-- <p style="margin-bottom: 0px;"><strong>Tarefa 1:</strong> implementar as rotinas para desenhar malhas de triângulos (6 pontos)</p> -->
-
 * **Tarefa 1:** implementar as rotinas para desenhar malhas de triângulos (6 pontos)
     - Fazer o desenho de TriangleStripSet (2 pontos)
     - Fazer o desenho de IndexedTriangleStripSet (2 pontos)
-    - Fazer o desenho de Box (2 pontos)
+    - Fazer o desenho de IndexedFaceSet (2 pontos)
 
 * **Tarefa 2:** implementar os recursos para o grafo de cena, para transforms dentro de transforms (4 pontos)
-
-
-
-
 
 Essas tarefas devem ser aplicadas nos exemplos: `11 - tira_tri`; `12 - letras`; `13 - avatar`;
 
