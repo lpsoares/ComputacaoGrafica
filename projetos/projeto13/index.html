@@ -256,18 +256,16 @@
 <p><strong>Data de entrega:</strong> 20/3/2023, via Blackboard.</p>
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou).</p>
 <p><strong>Entrega:</strong> individual.</p>
-<p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós <code>TriangleStripSet</code>, <code>IndexedTriangleStripSet</code>, <code>Box</code>, bem como tratar os grafos de cena, o que envolve maior suport para o <code>Transform</code>. No final, você terá um renderizador funcional que rodará por software.</p>
+<p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós <code>TriangleStripSet</code>, <code>IndexedTriangleStripSet</code>, <code>IndexedFaceSet</code> bem como tratar os grafos de cena, o que envolve maior suport para o <code>Transform</code>. No final, você terá um renderizador funcional que rodará por software.</p>
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
 <p>O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
-<!-- <p style="margin-bottom: 0px;"><strong>Tarefa 1:</strong> implementar as rotinas para desenhar malhas de triângulos (6 pontos)</p> -->
-
 <ul>
 <li>
 <p><strong>Tarefa 1:</strong> implementar as rotinas para desenhar malhas de triângulos (6 pontos)</p>
 <ul>
 <li>Fazer o desenho de TriangleStripSet (2 pontos)</li>
 <li>Fazer o desenho de IndexedTriangleStripSet (2 pontos)</li>
-<li>Fazer o desenho de Box (2 pontos)</li>
+<li>Fazer o desenho de IndexedFaceSet (2 pontos)</li>
 </ul>
 </li>
 <li>
@@ -281,8 +279,7 @@
 <p>Implemente as funções <code>GL.triangleStripSet()</code>, <code>GL.indexedTriangleStripSet()</code>, <code>GL.box()</code>, <code>GL.trasnform_in()</code>, <code>GL.transform_out()</code></p>
 <p>Caso o professor oriente atualizar o seu fork, faça os seguintes passos:</p>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git remote add upstream https://github.com/lpsoares/Renderizador
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git fetch upstream
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>git rebase upstream/master
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git pull upstream master
 </code></pre></div>
 <p>Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:</p>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git push origin master --force
