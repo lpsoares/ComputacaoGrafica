@@ -1,3 +1,5 @@
 - Mover "Desenhando Triângulos e X3D" (aula 2) para a primeira aula
-- Mover Renderização (aula 3) para o começo do curso, possivelmente primeira aula
-- Fazer as atividades de aula serem em código para já aproveitar no projeto
+- Mover explicação de Renderização (aula 3) para o começo do curso, possivelmente primeira aula
+- Fazer todas as atividades de aula serem em código para já aproveitar no projeto
+- Simplificar a explicação da Matriz de Look-at, só é usada a forma simples de mudança de base
+- Usar Merge nas orientações da leitura do upstream do git
