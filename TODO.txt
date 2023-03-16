@@ -6,5 +6,4 @@
 - Ligar o código da impressão do grafo de cena no Renderizador (está comentado)
 - Ver pyquaternion (para aula de quatérnios)
 - Mostrar o cálculo da Edge Function por produto vetorial como segunda opção (mesmo em coord. baricêntricas)
-
-- 
+- Atividade 9.2
