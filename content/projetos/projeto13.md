@@ -30,7 +30,7 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 Para esse fase do projeto teste os exemplos 3D, os testes de 11 até 13.
 
-Implemente as funções `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.box()`, `GL.trasnform_in()`, `GL.transform_out()`
+Implemente as funções `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.indexedFaceSet()`, `GL.trasnform_in()`, `GL.transform_out()`
 
 Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
 
@@ -47,10 +47,7 @@ git push origin master --force
 
 ## Instruções
 
-Para os triângulos uma superamostragem de 2x2 já basta.
-
 Como recomendação, você pode ver como deveria ser a saída em: https://lpsoares.github.io/Renderizador/index.html
-
 
 
 ## Entrega

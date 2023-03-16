@@ -52,6 +52,7 @@ Para os triângulos uma superamostragem de 2x2 já basta.
 
 Como recomendação, você pode ver como deveria ser a saída em: https://lpsoares.github.io/Renderizador/index.html
 
+Para os triângulos uma superamostragem de 2x2 já basta.
 
 
 ## Entrega
