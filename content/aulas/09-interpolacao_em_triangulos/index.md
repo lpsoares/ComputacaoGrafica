@@ -1,7 +1,7 @@
-# Revisão 1
+# Interpolação em Triângulos
 
 Nesta aula .
 
-<embed height="600" src="aula7_revisao.pdf" type="application/pdf" width="100%">
-[PDF](aula7_revisao.pdf)
-[PPT](aula7_revisao.pptx)
+<embed height="600" src="aula09_interpolação_em_triângulos.pdf" type="application/pdf" width="100%">
+[PDF](aula09_interpolação_em_triângulos.pdf)
+[PPT](aula09_interpolação_em_triângulos.pptx)
