@@ -14,7 +14,11 @@ Nesse projeto, você continuará a implementação do rasterizador para arquivos
 O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
 
-* **Tarefa 1:** suavização dos triângulos por superamostragem (2 pontos)
+* **Tarefa 2**: rasterizar aplicando a textura definida (3 pontos no total)
+    - Aplicando as textura por amostragem simples (2 pontos)
+    - Ajustando as texturas por cálculo do Mipmap (+1 pontos)
+
+
 
 * **Tarefa 1:** Cálculo de Iluminação (5 pontos)
 * **Tarefa 2:** animação/double buffer (5 pontos)

@@ -24,17 +24,18 @@ nav:
         - "07 - Revisão 1": aulas/07-revisao1/index.md
         - "08 - Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
         - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
-        #- "10 - Mapeamento": aulas/10-mapeamento/index.md
-        #- "11 - Iluminação": aulas/11-iluminacao/index.md
-        #- "12 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
-        #- "13 - Revisão 2": aulas/13-revisao2/index.md
-        #- "14 - Coordenadas Esféricas e Pipeline de Renderização": aulas/14-coord_esfericas_e_pipeline/index.md
-        #- "15 - Supersampling": aulas/15-supersampling/index.md
+        - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
+        #- "11 - Mapeamento": aulas/10-mapeamento/index.md
+        #- "12 - Iluminação": aulas/11-iluminacao/index.md
+        #- "13 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
+        #- "14 - Revisão 2": aulas/13-revisao2/index.md
+        #- "15 - Coordenadas Esféricas e Pipeline de Renderização": aulas/14-coord_esfericas_e_pipeline/index.md
+        #- "16 - Supersampling": aulas/15-supersampling/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
         - "Projeto 1.2": projetos/projeto12.md
         - "Projeto 1.3": projetos/projeto13.md
-        #- "Projeto 1.4": projetos/projeto14.md
+        - "Projeto 1.4": projetos/projeto14.md
         #- "Projeto 1.5": projetos/projeto15.md
 
