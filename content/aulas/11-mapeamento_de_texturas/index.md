@@ -2,6 +2,6 @@
 
 Nesta aula .
 
-<embed height="600" src="aula7_revisao.pdf" type="application/pdf" width="100%">
-[PDF](aula7_revisao.pdf)
-[PPT](aula7_revisao.pptx)
+<embed height="600" src="aula11_mapeamento_de_texturas.pdf" type="application/pdf" width="100%">
+[PDF](aula11_mapeamento_de_texturas.pdf)
+[PPT](aula11_mapeamento_de_texturas.pptx)
