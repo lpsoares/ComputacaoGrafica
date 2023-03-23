@@ -25,7 +25,7 @@ nav:
         - "08 - Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
         - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
         - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
-        #- "11 - Mapeamento": aulas/10-mapeamento/index.md
+        - "11 - Mapeamento": aulas/10-mapeamento/index.md
         #- "12 - Iluminação": aulas/11-iluminacao/index.md
         #- "13 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
         #- "14 - Revisão 2": aulas/13-revisao2/index.md
