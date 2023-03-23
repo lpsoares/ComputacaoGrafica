@@ -14,3 +14,6 @@
 - Fazer mais Kahoots
 - No Renderizador não esta atualizando se ligar grid ou geometria
 - Opção no Renderizador para ver canal de profundidade (z-buffer)
+- Separar a aula de malhas e de grafo de cena (virar duas aulas)
+- Mover TriangleStrip e TriangleFace para projeto de malhas (só trianguloSet com projeções)
+- Mover o Cubo para junto da esfera no Renderizador (e colocar cone, etc)

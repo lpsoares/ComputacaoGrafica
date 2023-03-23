@@ -26,11 +26,12 @@ nav:
         - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
         - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
         - "11 - Mapeamento": aulas/11-mapeamento/index.md
-        #- "12 - Iluminação": aulas/12-iluminacao/index.md
-        #- "13 - Curvas e Animações": aulas/13-curvas_e_animacoes/index.md
-        #- "14 - Revisão 2": aulas/14-revisao2/index.md
-        #- "15 - Coordenadas Esféricas e Pipeline de Renderização": aulas/15-coord_esfericas_e_pipeline/index.md
-        #- "16 - Supersampling": aulas/16-supersampling/index.md
+        - "12 - Revisão 2": aulas/12-revisao2/index.md
+        #- "13 - Iluminação": aulas/13-iluminacao/index.md
+        #- "14 - Curvas e Animações": aulas/14-curvas_e_animacoes/index.md
+        #- "15 - Revisão 2": aulas/15-revisao2/index.md
+        #- "16 - Coordenadas Esféricas e Pipeline de Renderização": aulas/16-coord_esfericas_e_pipeline/index.md
+        #- "17 - Supersampling": aulas/17-supersampling/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
