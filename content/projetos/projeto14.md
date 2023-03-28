@@ -19,7 +19,7 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
     - Somente realizando o cálculo por mapeamento de coordenadas afim (2 pontos)
     - Realizando o cálculo levando em conta a deformação de perspectiva, ou seja, levar em consideração o Z no cálculo (2 pontos)
 * **Tarefa 3**: implementar algoritmo de visibilidade (Z-buffer) (2 pontos no total)
-* **Tarefa 3**: implementar algoritmo de transparência (1 pontos no total)
+* **Tarefa 4**: implementar algoritmo de transparência (1 pontos no total)
 
 Essas tarefas devem ser aplicadas nos exemplos: `5 - tri_2d`; `14 - retang`, `15 - transp` e `16 - cores`;
 
