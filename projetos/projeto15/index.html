@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Projeto15 - Computação Gráfica</title>
+        <title>Projeto 1.5 - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -200,12 +200,28 @@
   
 
       
+        
+  
+    <li>
+      <a href="../../aulas/13-primitivas_geometricas/">13 - Primitivas Geométricas</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../../aulas/14-iluminacao/">14 - Iluminação</a>
+    </li>
+  
+
+      
     </ul>
   </li>
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Projetos</span>
     <ul>
       
@@ -241,8 +257,52 @@
   
 
       
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">Projeto 1.5</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#codigo-base">Código Base</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#instrucoes">Instruções</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#entrega">Entrega</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#honestidade-academica">Honestidade acadêmica</a>
+          </li>
+          
+        
+      </ul>
+    </li>
+  
+
+      
     </ul>
   </li>
+
+            
+              
+  
+    <li>
+      <a href="https://lpsoares.github.io/Renderizador/index.html">Exemplos X3D</a>
+    </li>
+  
 
             
           </ul>
@@ -254,41 +314,44 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Projeto15</li>
+                  
+                    <li>Projetos</li>
+                  
+                
+                <li>Projeto 1.5</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <p><strong>Projeto 1 – Rasterização : 5ª parte</strong></p>
-<p><strong>Data de entrega:</strong> 27/3/2023, via Blackboard.</p>
+<p><strong>Data de entrega:</strong> 14/4/2023, via Blackboard.</p>
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou).</p>
 <p><strong>Entrega:</strong> individual.</p>
-<p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós <code>TriangleStripSet</code>, <code>IndexedTriangleStripSet</code>, <code>Box</code>. No final, você terá um renderizador funcional que rodará por software.</p>
+<p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar primitivas geométricas (Cubos e Esferas) pela implementação dos nós <code>Box</code>, <code>Sphere</code> e texturas, que devem ser realizadas quando da leitura do parâmetro <code>current_texture</code> do nó IndexedFaceSet. No final, você terá um renderizador funcional que rodará por software.</p>
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
 <p>O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
 <ul>
 <li>
-<p><strong>Tarefa 2</strong>: rasterizar aplicando a textura definida (3 pontos no total)</p>
+<p><strong>Tarefa 1</strong>: implementar as primitivas geométricas 3D (4 pontos no total)</p>
 <ul>
-<li>Aplicando as textura por amostragem simples (2 pontos)</li>
-<li>Ajustando as texturas por cálculo do Mipmap (+1 pontos)</li>
+<li>Cubo (2 pontos)</li>
+<li>Esfera (2 pontos)</li>
 </ul>
 </li>
 <li>
-<p><strong>Tarefa 1:</strong> Cálculo de Iluminação (5 pontos)</p>
-</li>
-<li><strong>Tarefa 2:</strong> animação/double buffer (5 pontos)<ul>
-<li>Interpolação suave de posição (3 pontos)</li>
-<li>Interpolação de rotação (2 pontos)</li>
+<p><strong>Tarefa 2</strong>: rasterizar aplicando a textura definida (6 pontos no total)</p>
+<ul>
+<li>Aplicando as textura por amostragem simples (4 pontos)</li>
+<li>Ajustando as texturas por cálculo do Mipmap (2 pontos)</li>
 </ul>
 </li>
 </ul>
-<p>Essas tarefas devem ser aplicadas nos exemplos: <code>9 - tira_tri</code>; <code>10 - um_tri</code>;</p>
+<p>Essas tarefas devem ser aplicadas nos exemplos: <code>17 - textura</code>; <code>18 - texturas</code>; <code>19 - primitivas</code></p>
 <h2 id="codigo-base">Código Base</h2>
 <p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.</p>
-<p>Para esse fase do projeto teste os exemplos 3D,   os testes de 0 até 5.</p>
-<p>Implemente as funções <code>GL.triangleStripSet()</code>, <code>GL.indexedTriangleStripSet()</code>, <code>GL.box()</code></p>
+<p>Para esse fase do projeto teste os exemplos 3D, os testes de 17 até 19.</p>
+<p>Implemente as funções <code>GL.box()</code>, <code>GL.sphere()</code> e faça os ajustes necessários na <code>GL.indexedFaceSet()</code></p>
 <p>Caso o professor oriente atualizar o seu fork, faça os seguintes passos:</p>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git remote add upstream https://github.com/lpsoares/Renderizador
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git pull upstream master
@@ -297,9 +360,8 @@
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git push origin master --force
 </code></pre></div>
 <h2 id="instrucoes">Instruções</h2>
-<p>Para os triângulos uma superamostragem de 2x2 já basta.</p>
+<p>Já disponibilizamos a função de leitura de textura: <code>GPU.load_texture()</code>, use ela. Verifique se a variável current_texture está alocada, e realize a leitura com uma instrução como: <code>image_texture = gpu.GPU.load_texture(current_texture[0])</code></p>
 <p>Como recomendação, você pode ver como deveria ser a saída em: <a href="https://lpsoares.github.io/Renderizador/index.html">https://lpsoares.github.io/Renderizador/index.html</a></p>
-<p>Para os triângulos uma superamostragem de 2x2 já basta.</p>
 <h2 id="entrega">Entrega</h2>
 <p>Para entregar o projeto use o Github. Deixe seu código minimamente documentado e garanta que ele está rodando corretamente. Se quiser deixar o código fechado, não esqueça de dar acesso para o professor ao repositório.</p>
 <h2 id="honestidade-academica">Honestidade acadêmica</h2>
@@ -311,6 +373,13 @@
       </main>
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
+          
+            <a href="../projeto14/"
+               class="ah-prev"
+               title="Projeto 1.4">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">Projeto 1.4</span>
+            </a>
           
           
         </div>
