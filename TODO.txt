@@ -17,3 +17,6 @@
 - Separar a aula de malhas e de grafo de cena (virar duas aulas)
 - Mover TriangleStrip e TriangleFace para projeto de malhas (só trianguloSet com projeções)
 - Mover o Cubo para junto da esfera no Renderizador (e colocar cone, etc)
+- Remover revisão 2 (malhas em X3D)
+- Colocar de fato a explicação de clipping e usar o exemplo de Zoom
+- Colocar as Primitivas 3D logo após as malhas
