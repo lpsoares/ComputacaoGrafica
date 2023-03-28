@@ -31,7 +31,7 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 Para esse fase do projeto teste os exemplos 3D, os testes de 17 até 19.
 
-Implemente as funções `GL.box()`, `GL.sphere()`
+Implemente as funções `GL.box()`, `GL.sphere()` e faça os ajustes necessários na `GL.indexedFaceSet()`
 
 Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
 

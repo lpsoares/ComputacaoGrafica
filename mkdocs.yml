@@ -27,8 +27,8 @@ nav:
         - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
         - "11 - Mapeamento": aulas/11-mapeamento_de_texturas/index.md
         - "12 - Revisão 2": aulas/12-revisao2/index.md
-        - "13 - Primitivas": aulas/13-primitivas_geometricas/index.md
-        #- "14 - Iluminação": aulas/14-iluminacao/index.md
+        - "13 - Primitivas Geométricas": aulas/13-primitivas_geometricas/index.md
+        - "14 - Iluminação": aulas/14-iluminacao/index.md
         #- "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
         #- "16 - Revisão 2": aulas/16-revisao2/index.md
         #- "17 - Coordenadas Esféricas e Pipeline de Renderização": aulas/17-coord_esfericas_e_pipeline/index.md
@@ -42,3 +42,4 @@ nav:
         - "Projeto 1.5": projetos/projeto15.md
         #- "Projeto 1.5": projetos/projeto16.md
 
+    - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html
