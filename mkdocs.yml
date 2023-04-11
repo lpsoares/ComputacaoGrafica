@@ -27,10 +27,10 @@ nav:
         - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
         - "11 - Mapeamento": aulas/11-mapeamento_de_texturas/index.md
         - "12 - Revisão 2": aulas/12-revisao2/index.md
-        - "13 - Primitivas Geométricas": aulas/13-primitivas_geometricas/index.md
-        - "14 - Iluminação": aulas/14-iluminacao/index.md
-        #- "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
-        #- "16 - Revisão 2": aulas/16-revisao2/index.md
+        - "13 - Revisão 3": aulas/13-revisao3/index.md
+        - "14 - Primitivas Geométricas": aulas/14-primitivas_geometricas/index.md
+        - "15 - Iluminação": aulas/15-iluminacao/index.md
+        #- "16 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
         #- "17 - Coordenadas Esféricas e Pipeline de Renderização": aulas/17-coord_esfericas_e_pipeline/index.md
         #- "18 - Supersampling": aulas/18-supersampling/index.md
 

@@ -1,7 +1,7 @@
 
 **Projeto 1 – Rasterização : 5ª parte**
 
-**Data de entrega:** 14/4/2023, via Blackboard.
+**Data de entrega:** 17/4/2023, via Blackboard.
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 

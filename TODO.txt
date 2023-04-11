@@ -22,3 +22,7 @@
 - Colocar as Primitivas 3D logo após as malhas
 - Alunos estão conectando as chamadas do X3D, o que é ruim, criar uma estrutura que ajuda a criarem chamadas independentes (um pipeline)
 - Avisar no curso do cuidado em uam função X3D chamar outra função X3D
+- Em vez de chamar de Look-at, chamar só de View, vai evitar confusões
+- Falar que depois da Model View Projection o ponto ira para o clip space
+- Alinhar na aula antes da entrega como estúdio + aula de revisão (para quem quiser)
+- O exemplo de Zoom precisa vir com uma explicação mais completa de clipping
