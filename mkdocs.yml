@@ -30,9 +30,9 @@ nav:
         - "13 - Revisão 3": aulas/13-revisao3/index.md
         - "14 - Primitivas Geométricas": aulas/14-primitivas_geometricas/index.md
         - "15 - Iluminação": aulas/15-iluminacao/index.md
-        #- "16 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
-        #- "17 - Coordenadas Esféricas e Pipeline de Renderização": aulas/17-coord_esfericas_e_pipeline/index.md
-        #- "18 - Supersampling": aulas/18-supersampling/index.md
+        - "16 - Curvas e Animações": aulas/16-curvas_e_animacoes/index.md
+        - "17 - Revisão 4": aulas/17-revisao4/index.md
+        - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
@@ -40,6 +40,6 @@ nav:
         - "Projeto 1.3": projetos/projeto13.md
         - "Projeto 1.4": projetos/projeto14.md
         - "Projeto 1.5": projetos/projeto15.md
-        #- "Projeto 1.5": projetos/projeto16.md
+        - "Projeto 1.6": projetos/projeto16.md
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html

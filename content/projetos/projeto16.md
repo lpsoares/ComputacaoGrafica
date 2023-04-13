@@ -1,39 +1,32 @@
 
-**Projeto 1 – Rasterização : 5ª parte**
+**Projeto 1 – Rasterização : 6ª parte**
 
-**Data de entrega:** 14/4/2023, via Blackboard.
+**Data de entrega:** 26/4/2023, via Blackboard.
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
 **Entrega:** individual.
 
-Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar primitivas geométricas (Cubos e Esferas) pela implementação dos nós `Box`, `Sphere` e texturas, que devem ser realizadas quando da leitura do parâmetro `current_texture` do nó IndexedFaceSet. No final, você terá um renderizador funcional que rodará por software.
+Nesse projeto, você finalizará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa sexta e última parte você deverá tratar iluminação e animações, para isso deverá implementar os nós `DirectionalLight`, `NavigationInfo`, `TimeSensor`, `SplinePositionInterpolator` e `OrientationInterpolator`, perceba que também terá de fazer ajustes nas suas rotinas de desenho de triângulos para que as informações de iluminação sejam adequadamente processadas. No final, você terá um renderizador funcional que rodará por software.
 
 ## Estrutura do Projeto
 
-O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
+O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-
-* **Tarefa 2**: rasterizar aplicando a textura definida (3 pontos no total)
-    - Aplicando as textura por amostragem simples (2 pontos)
-    - Ajustando as texturas por cálculo do Mipmap (+1 pontos)
-
-* **Tarefa 1:** Cálculo de Iluminação (5 pontos)
-* **Tarefa 2:** animação/double buffer (5 pontos)
+* **Tarefa 1:** cálculo de iluminação (5 pontos)
+* **Tarefa 2:** animação (5 pontos)
     - Interpolação suave de posição (3 pontos)
     - Interpolação de rotação (2 pontos)
 
 
-Essas tarefas devem ser aplicadas nos exemplos: `9 - tira_tri`; `10 - um_tri`;
-
+Essas tarefas devem ser aplicadas nos exemplos: `20 - tri_3D`; `21 - caixa`; `22 - esferas`;
+`23 - onda`; `24 - piramide`; 
 
 ## Código Base
 
 O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
 
-Para esse fase do projeto teste os exemplos 3D,   os testes de 0 até 5.
-
-Implemente as funções `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.box()`
+Implemente as funções `GL.directionalLight()`, `GL.navigationInfo()`, `GL.timeSensor()`, `GL.splinePositionInterpolator()`, `GL.orientationInterpolator()` e atualize suas rotinas de desenho de poligonos para realizar o cálculo de iluminação de forma completa.
 
 Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
 
@@ -50,12 +43,13 @@ git push origin master --force
 
 ## Instruções
 
-Para os triângulos uma superamostragem de 2x2 já basta.
+Perceba que agora deverá tratar vários tipos propriedades e cores dos materiais: diffuseColor, ambientIntensity, shininess, specularColor.
+
+Os métodos splinePositionInterpolator e orientationInterpolator devem retornar o parâmetro value_changed. Assim no final do método terá algo como: "return value_changed".
+
+Nesse projeto não precisamos implementar todas as funcionalidades de double buffer pois o código e display são realizados de forma sequencial, porém alguns cuidados como: limpar o buffer serão necessários.
 
 Como recomendação, você pode ver como deveria ser a saída em: https://lpsoares.github.io/Renderizador/index.html
-
-Para os triângulos uma superamostragem de 2x2 já basta.
-
 
 ## Entrega
 

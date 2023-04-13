@@ -26,3 +26,7 @@
 - Falar que depois da Model View Projection o ponto ira para o clip space
 - Alinhar na aula antes da entrega como estúdio + aula de revisão (para quem quiser)
 - O exemplo de Zoom precisa vir com uma explicação mais completa de clipping
+- Separar melhor o arquivo gl.py
+- Incluir no projeto clipping! (frustum culling)
+- Incluir FOG
+- Fazer com background color
