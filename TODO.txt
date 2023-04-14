@@ -29,4 +29,4 @@
 - Separar melhor o arquivo gl.py
 - Incluir no projeto clipping! (frustum culling)
 - Incluir FOG
-- Fazer com background color
+- Fazer com background color (possivelmente junto com Zbuffer)

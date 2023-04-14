@@ -45,7 +45,7 @@ git push origin master --force
 
 ## Instruções
 
-Para os triângulos uma superamostragem de 2x2 já basta.
+Para os triângulos uma superamostragem de 2x2 já basta. Deixa a superamostragem ligada por padrão.
 
 Suponha que os objetos já estão na ordem para a transparência, não há necessidade de ordenar isso.
 
