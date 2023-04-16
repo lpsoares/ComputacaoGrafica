@@ -1,3 +1,4 @@
+- Terminar implementação de pipeline (branch pipeline)
 - Mover "Desenhando Triângulos e X3D" (aula 2) para a primeira aula
 - Mover explicação de Renderização (softwares, técnicas, etc) (aula 3) para o começo do curso, possivelmente primeira aula
 - Fazer todas as atividades de aula serem em código jupyter notebook para já aproveitar no projeto
@@ -30,3 +31,4 @@
 - Incluir no projeto clipping! (frustum culling)
 - Incluir FOG
 - Fazer com background color (possivelmente junto com Zbuffer)
+- Acertar branch pipelined
