@@ -28,7 +28,15 @@
 - Alinhar na aula antes da entrega como estúdio + aula de revisão (para quem quiser)
 - O exemplo de Zoom precisa vir com uma explicação mais completa de clipping
 - Separar melhor o arquivo gl.py
-- Incluir no projeto clipping! (frustum culling)
+- Incluir no projeto clipping! (frustum culling), trazendo axis-aligned bounding box (AABB), no começo.
 - Incluir FOG
 - Fazer com background color (possivelmente junto com Zbuffer)
 - Acertar branch pipelined
+- Verificar por que vários alunos tiveram problema de precisão no Z-buffer (algum erro comum)
+- Na primeira aula explicar bem X3D (alunos podem não entender bem como funciona, talvez pedir para criarem algo em X3D e visualizar no Browser)
+- Deixar claro que indexedFaceSet é um triangle fan
+- Puxar a aula de normais do Orfali e puxar para a aula de SDF
+- Shaders estão com origem da tela no canto inferior esquerdo, atualizar curso para isso
+- Usar ou remover as funções de shader antigas no código do renderizador X3D
+- Verificar se o clear do Depth Buffer está bem explicado e documentado (animações no final)
+- Ser se os exemplos em X3D não tem inconsistência do color por vertex

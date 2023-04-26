@@ -29,7 +29,7 @@ nav:
         - "12 - Revisão 2": aulas/12-revisao2/index.md
         - "13 - Revisão 3": aulas/13-revisao3/index.md
         - "14 - Primitivas Geométricas": aulas/14-primitivas_geometricas/index.md
-        - "15 - Iluminação": aulas/15-iluminacao/index.md
+        - "15 - Materiais e Iluminação": aulas/15-materiais_e_iluminacao/index.md
         - "16 - Curvas e Animações": aulas/16-curvas_e_animacoes/index.md
         - "17 - Revisão 4": aulas/17-revisao4/index.md
         - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
