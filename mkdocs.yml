@@ -33,6 +33,8 @@ nav:
         - "16 - Curvas e Animações": aulas/16-curvas_e_animacoes/index.md
         - "17 - Revisão 4": aulas/17-revisao4/index.md
         - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
+        - "19 - Shaders": aulas/19-shaders/index.md
+        
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
