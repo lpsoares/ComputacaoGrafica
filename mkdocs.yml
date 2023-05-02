@@ -43,5 +43,6 @@ nav:
         - "Projeto 1.4": projetos/projeto14.md
         - "Projeto 1.5": projetos/projeto15.md
         - "Projeto 1.6": projetos/projeto16.md
+        - "Projeto 2.1": projetos/projeto21.md
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html
