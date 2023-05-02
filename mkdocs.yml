@@ -34,6 +34,7 @@ nav:
         - "17 - Revisão 4": aulas/17-revisao4/index.md
         - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
         - "19 - Shaders": aulas/19-shaders/index.md
+        - "20 - SDF": aulas/20-sdf/index.md
         
 
     - Projetos:
