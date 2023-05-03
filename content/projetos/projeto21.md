@@ -15,6 +15,7 @@ Nesse projeto, você irá implementar desenhos diretamente por shaders. Para ess
 O projeto tem somente uma parte. Você poderá desenvolver seu código diretamente na ferramenta do Shadertoy ([https://www.shadertoy.com/](https://www.shadertoy.com/)) para isso confirme que você conseguiu salvar seu projeto e que outros possam ver, outra opção é criar direto uma aplicação em OpenGL e chamar o Fragmente Shader, para isso você poderá usar o código de referência em OpenGl da disciplina para acesso a Shaders em: [https://github.com/lpsoares/RenderizadorOpenGL](https://github.com/lpsoares/RenderizadorOpenGL).
 
 * **Tarefa 1:** criar a animação (10 pontos)
+![](../imagens/exerc211.gif)
 
 
 ## Código Base
