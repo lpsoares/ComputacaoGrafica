@@ -40,3 +40,6 @@
 - Usar ou remover as funções de shader antigas no código do renderizador X3D
 - Verificar se o clear do Depth Buffer está bem explicado e documentado (animações no final)
 - Ser se os exemplos em X3D não tem inconsistência do color por vertex
+- Mais exercícios de shaders antes de entrar em SDF
+- Talvez voltar a explicar em detalhes o problema da transformação das normais pela matriz model
+
