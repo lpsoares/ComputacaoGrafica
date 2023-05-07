@@ -42,4 +42,10 @@
 - Ser se os exemplos em X3D não tem inconsistência do color por vertex
 - Mais exercícios de shaders antes de entrar em SDF
 - Talvez voltar a explicar em detalhes o problema da transformação das normais pela matriz model
+- Preciso reforçar a explicações das normais no cálculo de ilunicação (estudantes ficaram muito perdidos)
+- Potencialmente levar aula de iluminação para OpenGL (bem como animação) explicar pelo novo pipeline
+- Colocar aula de BRDF na sequencia da de iluminação (já em OpenGL)
+- Se houver tempo colocar aula se sombras e reflexões na sequencia de BRDF (também em OpenGL)
+- Verificar o uso do https://www.desmos.com/ para as aulas
+- Verificar se espaço para falar de Space Partitioning, BVH, etc.
 
