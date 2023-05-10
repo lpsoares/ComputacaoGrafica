@@ -37,6 +37,7 @@ nav:
         - "20 - Programmable Shaders": aulas/20-programmable_shaders/index.md
         - "21 - SDF": aulas/21-sdf/index.md
         - "22 - Geometrias": aulas/22-geometrias/index.md
+        - "23 - Ray Marching": aulas/23-ray_marching/index.md
         
 
     - Projetos:
