@@ -7,7 +7,7 @@
 
 **Entrega:** individual.
 
-Nesse projeto, você irá implementar desenhos por rotinas de Ray Marching com recursos do Fragment Shader em GLSL. Faça uma modelo 3D no Fragment Shader de duas canecas em um ambiente iluminado (as canecas não precisam ser iguais), você pode usar um modelo de iluminação Phong tradicional. A fonte de luz deve se mover de alguma forma com o tempo. Queremos ver as canecas ligeiramente pela parte superior, permitindo ver parte do seu interior, como como as asas delas.
+Nesse projeto, você irá implementar desenhos por rotinas de Ray Marching com recursos do Fragment Shader em GLSL. Faça uma modelo 3D no Fragment Shader de duas canecas em um ambiente iluminado (as canecas não precisam ser iguais porem precisam ter cores diferentes), você pode usar um modelo de iluminação Phong tradicional. A fonte de luz deve se mover de alguma forma com o tempo. Queremos ver as canecas ligeiramente pela parte superior, permitindo ver parte do seu interior, como como as asas delas.
 
 
 ## Estrutura do Projeto
@@ -15,7 +15,7 @@ Nesse projeto, você irá implementar desenhos por rotinas de Ray Marching com r
 O projeto tem somente uma parte. Você poderá desenvolver seu código diretamente na ferramenta do Shadertoy ([https://www.shadertoy.com/](https://www.shadertoy.com/)) para isso confirme que você conseguiu salvar seu projeto e que outros possam ver, outra opção é criar direto uma aplicação em OpenGL e chamar o Fragmente Shader, para isso você poderá usar o código de referência em OpenGl da disciplina para acesso a Shaders em: [https://github.com/lpsoares/RenderizadorOpenGL](https://github.com/lpsoares/RenderizadorOpenGL).
 
 * **Tarefa 1:** criar uma caneca (10 pontos)
-
+![](../imagens/proj22.gif)
 
 ## Código Base
 
