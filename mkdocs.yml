@@ -38,7 +38,7 @@ nav:
         - "21 - SDF": aulas/21-sdf/index.md
         - "22 - Geometrias": aulas/22-geometrias/index.md
         - "23 - Ray Marching": aulas/23-ray_marching/index.md
-        #- "24 - ???": aulas/24-????/index.md
+        #- "24 - Sombras e Reflexões": aulas/24-sombras_e_reflexoes/index.md
         #- "25 - Ray Tracing": aulas/25-ray_tracing/index.md
         #- "26 - Mapeamentos": aulas/26-mapeamentos/index.md
         #- "27 - Texturas Procedurais": aulas/27-texturas_procedurais/index.md
