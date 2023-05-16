@@ -48,4 +48,4 @@
 - Se houver tempo colocar aula se sombras e reflexões na sequencia de BRDF (também em OpenGL)
 - Verificar o uso do https://www.desmos.com/ para as aulas
 - Verificar se espaço para falar de Space Partitioning, BVH, etc.
-- Separar no projeto da textura pontos para a correção do Z (not affine texture mapping)
+- Separar no projeto da textura pontos de nota para a correção do Z (not affine texture mapping)
