@@ -39,7 +39,7 @@ nav:
         - "22 - Geometrias": aulas/22-geometrias/index.md
         - "23 - Ray Marching": aulas/23-ray_marching/index.md
         - "24 - Sombras": aulas/24-sombras/index.md
-        #- "25 - Ray Tracing": aulas/25-ray_tracing/index.md
+        - "25 - Ray Tracing": aulas/25-ray_tracing/index.md
         #- "26 - Mapeamentos": aulas/26-mapeamentos/index.md
         #- "27 - Texturas Procedurais": aulas/27-texturas_procedurais/index.md
         #- "28 - WebGL e ThreeJS": aulas/28-webgl_threejs/index.md
@@ -54,7 +54,7 @@ nav:
         - "Projeto 1.6": projetos/projeto16.md
         - "Projeto 2.1": projetos/projeto21.md
         - "Projeto 2.2": projetos/projeto22.md
-        #- "Projeto 2.3": projetos/projeto23.md
+        - "Projeto 2.3": projetos/projeto23.md
         #- "Projeto 2.4": projetos/projeto24.md
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html
