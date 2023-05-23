@@ -35,7 +35,7 @@ nav:
         - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
         - "19 - Shaders": aulas/19-shaders/index.md
         - "20 - Programmable Shaders": aulas/20-programmable_shaders/index.md
-        - "21 - SDF": aulas/21-sdf/index.md
+        - "21 - Signed Distance Function": aulas/21-signed_distance_function/index.md
         - "22 - Geometrias": aulas/22-geometrias/index.md
         - "23 - Ray Marching": aulas/23-ray_marching/index.md
         - "24 - Sombras": aulas/24-sombras/index.md
