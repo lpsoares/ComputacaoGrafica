@@ -49,3 +49,5 @@
 - Verificar o uso do https://www.desmos.com/ para as aulas
 - Verificar se espaço para falar de Space Partitioning, BVH, etc.
 - Separar no projeto da textura pontos de nota para a correção do Z (not affine texture mapping)
+- Juntar tudo de Noise e colocar como primeira aula dos shaders (random normal e Perlin Noise, etc)
+- Criar uma aula de padrões na sequencia da aula de noise (ou antes) (https://thebookofshaders.com/09/)

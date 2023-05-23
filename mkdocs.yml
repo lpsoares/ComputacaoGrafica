@@ -40,7 +40,7 @@ nav:
         - "23 - Ray Marching": aulas/23-ray_marching/index.md
         - "24 - Sombras": aulas/24-sombras/index.md
         - "25 - Ray Tracing": aulas/25-ray_tracing/index.md
-        #- "26 - Mapeamentos": aulas/26-mapeamentos/index.md
+        - "26 - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
         #- "27 - Texturas Procedurais": aulas/27-texturas_procedurais/index.md
         #- "28 - WebGL e ThreeJS": aulas/28-webgl_threejs/index.md
         
