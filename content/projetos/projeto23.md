@@ -20,6 +20,8 @@ O projeto tem somente uma parte. Você poderá desenvolver seu código diretamen
 
 ## Código Base
 
+Para o RayTracer, você poderá usar o código: [https://www.shadertoy.com/view/DtV3Rc](https://www.shadertoy.com/view/DtV3Rc).
+
 Você poderar desenvolver no [ShaderToy](https://www.shadertoy.com/), contudo se desejar pode usar um código base para o projeto em: [https://github.com/lpsoares/RenderizadorOpenGL](https://github.com/lpsoares/RenderizadorOpenGL). Junto com o código existem uma série de exemplos que você poderá usar para montar o seu código.
 
 O código original desse Ray Tracer desenvolvido em aula se baseado no livro do Peter Shirley (https://raytracing.github.io/). Contudo diversas adaptações foram realizadas para rodar em GPU em GLSL.
