@@ -1,22 +1,20 @@
 
-**Projeto 2 – Shaders : 3ª parte**
+**Projeto 2 – Shaders : 4ª parte**
 
-**Data de entrega:** 25/5/2023, via Blackboard.
+**Data de entrega:** 2/6/2023, via Blackboard.
 
 **Link do Github:** enviar via Blackboard o link do Shadertoy ou do github.
 
 **Entrega:** individual.
 
-Nesse projeto, você irá implementar rotinas de Ray Tracing com recursos do Fragment Shader em GLSL. Você deverá implementar uma nova primitiva gráfica para o Ray Tracer desenvolvido em aula. Na aula será sorteada uma primitva para você. Na prática você deverá se focar em adaptar a rotina `hit_sphere` para o seu caso. Depois deverá também calcular a normal para o ponto, perceba que para isso poderá ser necessário usar alguma estratégia de derivas no ponto.
-
+Nesta última parte do projeto você deverá desenvolver uma nova textura usando perlin Noise (ou alguma variante) para o Ray Tracer desenvolido no Fragment Shader em GLSL. Essa é um avaliação mais artística, assim capriche em criar uma textura mais organica.
 
 ## Estrutura do Projeto
 
 Você poderá desenvolver seu código diretamente na ferramenta do Shadertoy ([https://www.shadertoy.com/](https://www.shadertoy.com/)) para isso confirme que você conseguiu salvar seu projeto e que outros possam ver, outra opção é criar direto uma aplicação em OpenGL e chamar o Fragmente Shader, para isso você poderá usar o código de referência em OpenGl da disciplina para acesso a Shaders em: [https://github.com/lpsoares/RenderizadorOpenGL](https://github.com/lpsoares/RenderizadorOpenGL).
 
-* **Tarefa 1:** Desenhar a primitiva gráfica (8 pontos)
-* **Tarefa 2:** Calcular corretamente as normais na superfície (2 pontos)
-
+* **Tarefa 1:** Criar uma textura em Perlin Noise usando algo como Turbulência (8 pontos)
+* **Tarefa 2:** Aplicar a textura em um espaço 3D em qualquer primitiva geométrica (2 pontos)
 
 ## Código Base
 
