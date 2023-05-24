@@ -41,7 +41,7 @@ nav:
         - "24 - Sombras": aulas/24-sombras/index.md
         - "25 - Ray Tracing": aulas/25-ray_tracing/index.md
         - "26 - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
-        #- "27 - Texturas Procedurais": aulas/27-texturas_procedurais/index.md
+        - "27 - Aleatoriedade e Ruídos": aulas/27-aleatoriedade_e_ruidos/index.md
         #- "28 - WebGL e ThreeJS": aulas/28-webgl_threejs/index.md
         
 

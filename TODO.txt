@@ -51,3 +51,6 @@
 - Separar no projeto da textura pontos de nota para a correção do Z (not affine texture mapping)
 - Juntar tudo de Noise e colocar como primeira aula dos shaders (random normal e Perlin Noise, etc)
 - Criar uma aula de padrões na sequencia da aula de noise (ou antes) (https://thebookofshaders.com/09/)
+- Melhor tirar o torus do projeto 2.3 (equação quádrica)
+- Talvez mostrar para os alunos como resolver torus (e não colocar no projeto) https://www.shadertoy.com/view/fsB3Wt
+- Deixar claro (Steiner surface also known as the Roman Surface)
