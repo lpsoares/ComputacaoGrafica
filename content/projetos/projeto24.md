@@ -7,7 +7,7 @@
 
 **Entrega:** individual.
 
-Nesta última parte do projeto você deverá desenvolver uma nova textura usando perlin Noise (ou alguma variante) para o Ray Tracer desenvolido no Fragment Shader em GLSL. Essa é um avaliação mais artística, assim capriche em criar uma textura mais organica.
+Nesta última parte do projeto você deverá desenvolver uma nova textura usando perlin Noise (ou alguma variante) para o Ray Tracer desenvolido no Fragment Shader em GLSL. Essa é um avaliação mais artística, assim capriche em criar uma textura mais organica. Use estratégias como turbulência para conseguir efeitos interessantes.
 
 ## Estrutura do Projeto
 
@@ -40,7 +40,7 @@ git push origin master --force
 
 ## Instruções
 
-Desenvolva em GLSL as novas rotinas para a primitiva geométrica que você irá fazer. Você pode utilizar bibliotecas fora das bibliotecas padrão de GLSL.
+Desenvolva em GLSL as novas rotinas para o desenho da textura que você irá fazer. Você pode utilizar bibliotecas fora das bibliotecas padrão de GLSL se quiser, contudo crie algo seu. Um perlin noise básico não será aceito, crei algum efeito com a técnica.
 
 ## Entrega
 
