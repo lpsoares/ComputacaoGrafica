@@ -54,3 +54,4 @@
 - Melhor tirar o torus do projeto 2.3 (equação quádrica)
 - Talvez mostrar para os alunos como resolver torus (e não colocar no projeto) https://www.shadertoy.com/view/fsB3Wt
 - Deixar claro (Steiner surface also known as the Roman Surface)
+- Passar direto para os alunos as equações de intesecção (https://iquilezles.org/articles/intersectors/)
