@@ -7,7 +7,7 @@
 
 **CARGA HORÁRIA TOTAL**: 80 horas
 
-**PERÍODO LETIVO**: 2021-2
+**PERÍODO LETIVO**: 2023-1
 
 
 **EMENTA**:
