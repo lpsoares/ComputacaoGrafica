@@ -8,4 +8,6 @@ Nesta aula veremos mais sobre projeções perspectiva, como os artistas lidavama
 
 # Atividades
 
+[Atividade - desenho de um cubo](Atividade1_desenho_de_um_cubo.docx)
+
 [Atividade](atividade.ipynb)

@@ -1,12 +1,12 @@
 INHERIT: "active-handout.yml"
 
 site_name: "Computação Gráfica"
-site_author: "Luciano Pereira Soares"
+site_author: "Luciano Soares & Fabio Orfali"
 
 extra:
     materia: Computação Gráfica
-    professor: Luciano Pereira Soares
-    semestre: 2023/1
+    professor: Luciano Soares & Fabio Orfali
+    semestre: 2024/1
     url_acompanhamentos: http://localhost:8081
     id_curso: 10
 
@@ -16,45 +16,45 @@ nav:
 
     - Aulas:
         - "01 - Introdução": aulas/01-introducao/index.md
-        - "02 - Desenhando Triângulos e X3D": aulas/02-desenhando_triangulos_e_X3D/index.md
-        - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
-        - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
-        - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
-        - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
-        - "07 - Revisão 1": aulas/07-revisao1/index.md
-        - "08 - Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
-        - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
-        - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
-        - "11 - Mapeamento": aulas/11-mapeamento_de_texturas/index.md
-        - "12 - Revisão 2": aulas/12-revisao2/index.md
-        - "13 - Revisão 3": aulas/13-revisao3/index.md
-        - "14 - Primitivas Geométricas": aulas/14-primitivas_geometricas/index.md
-        - "15 - Materiais e Iluminação": aulas/15-materiais_e_iluminacao/index.md
-        - "16 - Curvas e Animações": aulas/16-curvas_e_animacoes/index.md
-        - "17 - Revisão 4": aulas/17-revisao4/index.md
-        - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
-        - "19 - Shaders": aulas/19-shaders/index.md
-        - "20 - Programmable Shaders": aulas/20-programmable_shaders/index.md
-        - "21 - Signed Distance Function": aulas/21-signed_distance_function/index.md
-        - "22 - Geometrias": aulas/22-geometrias/index.md
-        - "23 - Ray Marching": aulas/23-ray_marching/index.md
-        - "24 - Sombras": aulas/24-sombras/index.md
-        - "25 - Ray Tracing": aulas/25-ray_tracing/index.md
-        - "26 - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
-        - "27 - Aleatoriedade e Ruídos": aulas/27-aleatoriedade_e_ruidos/index.md
-        - "28 - Revisão / Estúdio": aulas/28-revisao/index.md
+        - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
+        # - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
+        # - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
+        # - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
+        # - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
+        # - "07 - Revisão 1": aulas/07-revisao1/index.md
+        # - "08 - Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
+        # - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
+        # - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
+        # - "11 - Mapeamento": aulas/11-mapeamento_de_texturas/index.md
+        # - "12 - Revisão 2": aulas/12-revisao2/index.md
+        # - "13 - Revisão 3": aulas/13-revisao3/index.md
+        # - "14 - Primitivas Geométricas": aulas/14-primitivas_geometricas/index.md
+        # - "15 - Materiais e Iluminação": aulas/15-materiais_e_iluminacao/index.md
+        # - "16 - Curvas e Animações": aulas/16-curvas_e_animacoes/index.md
+        # - "17 - Revisão 4": aulas/17-revisao4/index.md
+        # - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
+        # - "19 - Shaders": aulas/19-shaders/index.md
+        # - "20 - Programmable Shaders": aulas/20-programmable_shaders/index.md
+        # - "21 - Signed Distance Function": aulas/21-signed_distance_function/index.md
+        # - "22 - Geometrias": aulas/22-geometrias/index.md
+        # - "23 - Ray Marching": aulas/23-ray_marching/index.md
+        # - "24 - Sombras": aulas/24-sombras/index.md
+        # - "25 - Ray Tracing": aulas/25-ray_tracing/index.md
+        # - "26 - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
+        # - "27 - Aleatoriedade e Ruídos": aulas/27-aleatoriedade_e_ruidos/index.md
+        # - "28 - Revisão / Estúdio": aulas/28-revisao/index.md
         
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
-        - "Projeto 1.2": projetos/projeto12.md
-        - "Projeto 1.3": projetos/projeto13.md
-        - "Projeto 1.4": projetos/projeto14.md
-        - "Projeto 1.5": projetos/projeto15.md
-        - "Projeto 1.6": projetos/projeto16.md
-        - "Projeto 2.1": projetos/projeto21.md
-        - "Projeto 2.2": projetos/projeto22.md
-        - "Projeto 2.3": projetos/projeto23.md
-        - "Projeto 2.4": projetos/projeto24.md
+        # - "Projeto 1.2": projetos/projeto12.md
+        # - "Projeto 1.3": projetos/projeto13.md
+        # - "Projeto 1.4": projetos/projeto14.md
+        # - "Projeto 1.5": projetos/projeto15.md
+        # - "Projeto 1.6": projetos/projeto16.md
+        # - "Projeto 2.1": projetos/projeto21.md
+        # - "Projeto 2.2": projetos/projeto22.md
+        # - "Projeto 2.3": projetos/projeto23.md
+        # - "Projeto 2.4": projetos/projeto24.md
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html

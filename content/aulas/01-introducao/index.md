@@ -1,6 +1,6 @@
 # Introdução a computação gráfica
 
-Nesta primeira aula veremos os fundamentos da computação gráfica e faremos atividades de projeção e desenho de pontos e linhas.
+Nesta primeira aula veremos os fundamentos da computação gráfica e faremos atividades de desenho de pontos e linhas. Também veremos o básico de X3D.
 
 <!-- !!! pdf
     ![](aula1_introducao.pdf) -->
@@ -11,7 +11,6 @@ Nesta primeira aula veremos os fundamentos da computação gráfica e faremos at
 
 # Atividades
 
-[Atividade 1 - desenho de um cubo](Atividade1_desenho_de_um_cubo.docx)
+[Atividade - desenho de uma linha](Atividade_desenho_de_uma_linha.docx)
 
-[Atividade 2 - desenho de uma linha](Atividade2_desenho_de_uma_linha.docx)
-
+[Atividade](atividade.ipynb)
