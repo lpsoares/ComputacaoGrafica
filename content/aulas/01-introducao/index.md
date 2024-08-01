@@ -11,6 +11,8 @@ Nesta primeira aula veremos os fundamentos da computação gráfica e faremos at
 
 # Atividades
 
-[Atividade - desenho de uma linha](Atividade_desenho_de_uma_linha.docx)
+[Atividade - desenho um boneco palito em X3D](https://create3000.github.io/x_ite/playground/)
 
-[Atividade](atividade.ipynb)
+[Atividade - desenho de uma linha manualmente](Atividade_desenho_de_uma_linha.docx)
+
+[Atividade - desenhe uma linha em um Frame Buffer](atividade.ipynb)

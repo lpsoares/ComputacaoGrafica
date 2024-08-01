@@ -1,4 +1,4 @@
-# Desenhando Triângulos e X3D
+# Desenhando Triângulos
 
 Nesta aula estudaremos como implementar em um renderizador o desenho de triângulos.
 
