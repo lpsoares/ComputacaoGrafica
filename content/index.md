@@ -7,7 +7,7 @@
 
 **CARGA HORÁRIA TOTAL**: 80 horas
 
-**PERÍODO LETIVO**: 2024-1
+**PERÍODO LETIVO**: 2024-2
 
 
 **EMENTA**:
