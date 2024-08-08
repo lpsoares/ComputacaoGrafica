@@ -48,3 +48,7 @@ Para entregar o projeto use o Github. Deixe seu código minimamente documentado 
 ## Honestidade acadêmica
 
 As tarefas devem ser concluídas em dupla ou individualmente. Você está convidado a discutir as várias partes das tarefas com seus colegas, mas você deve implementar os algoritmos. Você não deve ficar olhando o código de seus colegas.
+
+
+## Extra
+Como desafio existe a função para desenhar Círculos 2D, para isso implemente a função GL.circle2D().
