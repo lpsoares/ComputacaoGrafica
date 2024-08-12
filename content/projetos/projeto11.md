@@ -5,7 +5,7 @@
 
 **Link do Github:** enviar via Blackboard.
 
-**Entrega:** individual.
+**Entrega:** duplas.
 
 Nesse projeto, você implementará um rasterizador para arquivos X3D muito simples, que irá possuir recursos de desenho de: pontos, linhas e triângulos 2D nessa primeira fase. No final, você terá um renderizador funcional que rodará por software, que permite que novos recursos sejam incorporados.
 
@@ -48,3 +48,7 @@ Para entregar o projeto use o Github. Deixe seu código minimamente documentado 
 ## Honestidade acadêmica
 
 As tarefas devem ser concluídas em dupla ou individualmente. Você está convidado a discutir as várias partes das tarefas com seus colegas, mas você deve implementar os algoritmos. Você não deve ficar olhando o código de seus colegas.
+
+
+## Extra
+Como desafio existe a função para desenhar Círculos 2D, para isso implemente a função GL.circle2D().
