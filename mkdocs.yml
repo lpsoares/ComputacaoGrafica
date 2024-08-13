@@ -17,7 +17,7 @@ nav:
     - Aulas:
         - "01 - Introdução": aulas/01-introducao/index.md
         - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
-        # - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
+        - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
         # - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
         # - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
         # - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
