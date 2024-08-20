@@ -1,11 +1,11 @@
 
 **Projeto 1 – Rasterização : 2ª parte**
 
-**Data de entrega:** 13/3/2023, via Blackboard.
+**Data de entrega:** 2/9/2024, via Blackboard.
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
-**Entrega:** individual.
+**Entrega:** individual ou duplas.
 
 Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleSet`, . Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó `viewpoint`. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó `Transform_in`. No final, você terá um renderizador funcional que rodará por software.
 
@@ -28,7 +28,7 @@ Essas tarefas devem ser aplicadas nos exemplos: `8 - um_tri`; `9 - var_tri`; `10
 
 O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
 
-Para esse fase do projeto teste os exemplos 3D, no caso os testes de 8 até 10.
+Para esse fase do projeto teste os exemplos 3D, no caso os testes de 9 até 11.
 
 Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`.
 
@@ -39,7 +39,7 @@ git remote add upstream https://github.com/lpsoares/Renderizador
 git pull upstream master
 ```
 
-Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:
+Cuidado para não comprometer seus dados, para atualizar seus dados vocês podem precisar de algo como:
 
 ```
 git push origin master --force
@@ -47,7 +47,7 @@ git push origin master --force
 
 ## Instruções
 
-Como recomendação: comece verificando se as operações de transformações geométricas de escala, rotação e translação funcionam monitorando se os pontos do triângulo estão indo para onde deveriam ir. Depois monte a matriz de visualização (câmera), e veja se estão coerente as posições dos vértices. Aplique a projeção perspectiva até chegar nos vértices em coordenadas normalizadas e finalmente desenhe os polígonos nos pixels. 
+Como recomendação: comece verificando se as operações de transformações geométricas de escala, rotação e translação funcionam monitorando se os pontos do triângulo estão indo para onde deveriam ir. Depois monte a matriz de visualização (câmera), e veja se estão coerentes as posições dos vértices. Aplique a projeção perspectiva até chegar nos vértices em coordenadas normalizadas e finalmente desenhe os polígonos nos pixels. 
 
 Como recomendação, você pode ver como deveria ser a saída em: https://lpsoares.github.io/Renderizador/index.html
 

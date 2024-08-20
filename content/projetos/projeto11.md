@@ -5,7 +5,7 @@
 
 **Link do Github:** enviar via Blackboard.
 
-**Entrega:** duplas.
+**Entrega:** individual ou duplas.
 
 Nesse projeto, você implementará um rasterizador para arquivos X3D muito simples, que irá possuir recursos de desenho de: pontos, linhas e triângulos 2D nessa primeira fase. No final, você terá um renderizador funcional que rodará por software, que permite que novos recursos sejam incorporados.
 
