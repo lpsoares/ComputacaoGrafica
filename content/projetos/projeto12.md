@@ -1,9 +1,9 @@
 
 **Projeto 1 – Rasterização : 2ª parte**
 
-**Data de entrega:** 2/9/2024, via Blackboard.
+**Data de entrega:** 4/9/2024, via Blackboard.
 
-**Link do Github:** enviar via Blackboard (se ainda não enviou).
+**Link do Github:** enviar via Blackboard (se ainda não enviou, senão suporemos mesmo link e grupo da entrega anteriore).
 
 **Entrega:** individual ou duplas.
 
