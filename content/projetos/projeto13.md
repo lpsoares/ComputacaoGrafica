@@ -5,9 +5,14 @@
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
-**Entrega:** individual.
+**Entrega:** individual ou duplas.
 
 Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleStripSet`, `IndexedTriangleStripSet`, `IndexedFaceSet` bem como tratar os grafos de cena, o que envolve maior suport para o `Transform`. No final, você terá um renderizador funcional que rodará por software.
+
+
+## Código Base
+
+O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.
 
 
 ## Estrutura do Projeto
@@ -21,29 +26,10 @@ O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de
 
 * **Tarefa 2:** implementar os recursos para o grafo de cena, para transforms dentro de transforms (4 pontos)
 
-Essas tarefas devem ser aplicadas nos exemplos: `11 - tira_tri`; `12 - letras`; `13 - avatar`;
-
-
-## Código Base
-
-O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
-
-Para esse fase do projeto teste os exemplos 3D, os testes de 11 até 13.
-
 Implemente as funções `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.indexedFaceSet()`, `GL.trasnform_in()`, `GL.transform_out()`
 
-Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
+Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *tira_tri, letras, avatar*
 
-```
-git remote add upstream https://github.com/lpsoares/Renderizador
-git pull upstream master
-```
-
-Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:
-
-```
-git push origin master --force
-```
 
 ## Instruções
 

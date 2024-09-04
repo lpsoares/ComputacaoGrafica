@@ -9,6 +9,11 @@
 
 Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós `TriangleSet`, . Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó `viewpoint`. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó `Transform_in`. No final, você terá um renderizador funcional que rodará por software.
 
+## Código Base
+
+O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.
+
+
 ## Estrutura do Projeto
 
 O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
@@ -21,29 +26,12 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 
 * **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto)
 
-Essas tarefas devem ser aplicadas nos exemplos: `8 - um_tri`; `9 - var_tri`; `10 - zoom`.
-
-
-## Código Base
-
-O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
-
-Para esse fase do projeto teste os exemplos 3D, no caso os testes de 9 até 11.
 
 Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`.
 
-Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
+Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *um_tri, var_tri, zoom*
 
-```
-git remote add upstream https://github.com/lpsoares/Renderizador
-git pull upstream master
-```
 
-Cuidado para não comprometer seus dados, para atualizar seus dados vocês podem precisar de algo como:
-
-```
-git push origin master --force
-```
 
 ## Instruções
 

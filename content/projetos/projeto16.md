@@ -5,9 +5,15 @@
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
-**Entrega:** individual.
+**Entrega:** individual ou duplas.
 
 Nesse projeto, você finalizará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa sexta e última parte você deverá tratar iluminação e animações, para isso deverá implementar os nós `DirectionalLight`, `NavigationInfo`, `TimeSensor`, `SplinePositionInterpolator` e `OrientationInterpolator`, perceba que também terá de fazer ajustes nas suas rotinas de desenho de triângulos para que as informações de iluminação sejam adequadamente processadas. No final, você terá um renderizador funcional que rodará por software.
+
+
+## Código Base
+
+O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.
+
 
 ## Estrutura do Projeto
 
@@ -18,28 +24,9 @@ O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de
     - Interpolação suave de posição (3 pontos)
     - Interpolação de rotação (2 pontos)
 
-
-Essas tarefas devem ser aplicadas nos exemplos: `20 - tri_3D`; `21 - caixa`; `22 - esferas`;
-`23 - onda`; `24 - piramide`; 
-
-## Código Base
-
-O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
-
 Implemente as funções `GL.directionalLight()`, `GL.navigationInfo()`, `GL.timeSensor()`, `GL.splinePositionInterpolator()`, `GL.orientationInterpolator()` e atualize suas rotinas de desenho de poligonos para realizar o cálculo de iluminação de forma completa.
 
-Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
-
-```
-git remote add upstream https://github.com/lpsoares/Renderizador
-git pull upstream master
-```
-
-Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:
-
-```
-git push origin master --force
-```
+Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *tri_3D, caixa, esferas, onda, piramide*
 
 ## Instruções
 

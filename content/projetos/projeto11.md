@@ -9,6 +9,10 @@
 
 Nesse projeto, você implementará um rasterizador para arquivos X3D muito simples, que irá possuir recursos de desenho de: pontos, linhas e triângulos 2D nessa primeira fase. No final, você terá um renderizador funcional que rodará por software, que permite que novos recursos sejam incorporados.
 
+## Código Base
+
+O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.
+
 
 ## Estrutura do Projeto
 
@@ -20,14 +24,10 @@ O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de
 
 * **Tarefa 3:** desenho de triângulos coloridos no framebuffer (5 pontos)
 
+Implemente as funções `GL.polypoint2D()`, `GL.polyline2D()` e `GL.triangleSet2D()`
 
-## Código Base
+Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *pontos, linhas, octogono, linhas_fora, var_lin, circulo, tri_2D, helice, tri_alta*
 
-O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
-
-Para esse fase do projeto teste todos os exemplos 2D fornecidos. Ou seja, os testes de 0 até 5.
-
-Implemente as funções GL.polypoint2D(), GL.polyline2D() e GL.triangleSet2D()
 
 ## Instruções
 
@@ -37,7 +37,7 @@ Não há necessidade de tratar o serrilhamento (aliasing) agora, não estaremos 
 
 Como recomendação, você pode ver como deveria ser a saída em: [https://lpsoares.github.io/Renderizador/index.html](https://lpsoares.github.io/Renderizador/index.html)
 
-(fizemos alguns truques com o X_ITE para ele mostrar os pontos nas posições desejada, em uma cena 3D o resultado será outro)
+(fizemos alguns truques com o X_ITE para ele mostrar os pontos nas posições desejadas, em uma cena 3D o resultado será outro)
 
 
 ## Entrega

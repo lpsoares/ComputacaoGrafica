@@ -5,9 +5,15 @@
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
-**Entrega:** individual.
+**Entrega:** individual ou duplas.
 
 Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa quarta parte você deverá implementar um sistema de anti-aliasing com supersampling, implementar os recursos de interpolação de cores em geometrias, implementar um sistema de z-buffer (depth buffer) e finalmente composição para transparências. No final, você terá um renderizador funcional que rodará por software.
+
+
+## Código Base
+
+O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.
+
 
 ## Estrutura do Projeto
 
@@ -21,27 +27,10 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 * **Tarefa 3**: implementar algoritmo de visibilidade (Z-buffer) (2 pontos no total)
 * **Tarefa 4**: implementar algoritmo de transparência (1 pontos no total)
 
-Essas tarefas devem ser aplicadas nos exemplos: `5 - tri_2d`; `14 - retang`, `15 - transp` e `16 - cores`;
-
-
-## Código Base
-
-O código base para o projeto pode ser encontrado em: [https://github.com/lpsoares/Renderizador](https://github.com/lpsoares/Renderizador), você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.
-
 Implemente ou atualize as funções `GL.triangleSet()`, `GL.indexedFaceSet()` para conseguir usar os valores de interpolação usando o Z. Também precisará acessar as funções `Renderizador.setup()`, `Renderizador.pos()` (e eventualmente `Renderizador.pre()`) para configurar o sistema para o anti-aliasing e configurar o z-buffer.
 
-Caso o professor oriente atualizar o seu fork, faça os seguintes passos:
+Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *retang, transp, cores*
 
-```
-git remote add upstream https://github.com/lpsoares/Renderizador
-git pull upstream master
-```
-
-Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:
-
-```
-git push origin master --force
-```
 
 ## Instruções
 
