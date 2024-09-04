@@ -176,12 +176,12 @@
       <ul>
         
           <li class="ah-toc-item">
-            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
+            <a href="#codigo-base">Código Base</a>
           </li>
           
         
           <li class="ah-toc-item">
-            <a href="#codigo-base">Código Base</a>
+            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
           </li>
           
         
@@ -254,6 +254,8 @@
 <p><strong>Link do Github:</strong> enviar via Blackboard.</p>
 <p><strong>Entrega:</strong> individual ou duplas.</p>
 <p>Nesse projeto, você implementará um rasterizador para arquivos X3D muito simples, que irá possuir recursos de desenho de: pontos, linhas e triângulos 2D nessa primeira fase. No final, você terá um renderizador funcional que rodará por software, que permite que novos recursos sejam incorporados.</p>
+<h2 id="codigo-base">Código Base</h2>
+<p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.</p>
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
 <p>O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
 <ul>
@@ -267,15 +269,13 @@
 <p><strong>Tarefa 3:</strong> desenho de triângulos coloridos no framebuffer (5 pontos)</p>
 </li>
 </ul>
-<h2 id="codigo-base">Código Base</h2>
-<p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.</p>
-<p>Para esse fase do projeto teste todos os exemplos 2D fornecidos. Ou seja, os testes de 0 até 5.</p>
-<p>Implemente as funções GL.polypoint2D(), GL.polyline2D() e GL.triangleSet2D()</p>
+<p>Implemente as funções <code>GL.polypoint2D()</code>, <code>GL.polyline2D()</code> e <code>GL.triangleSet2D()</code></p>
+<p>Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: <em>pontos, linhas, octogono, linhas_fora, var_lin, circulo, tri_2D, helice, tri_alta</em></p>
 <h2 id="instrucoes">Instruções</h2>
 <p>Para essa primeira fase 2D, você não deve se preocupar com os nós do X3D como Transform por exemplo, você pode usar diretamente os valores fornecidos dos pontos, esse não é o funcionamento em cenas 3D, mas serve para você testar o processo de renderização. Depois mais a frente você poderá fazer o funcionamento completo dos nós 2D para funcionar em uma cena 3D.</p>
 <p>Não há necessidade de tratar o serrilhamento (aliasing) agora, não estaremos também analisando o desempenho do seu programa (contudo você pode implementar as otimizações que deseja, a médio prazo códigos sem nenhum otimização tendem a ficar muito lentos).</p>
 <p>Como recomendação, você pode ver como deveria ser a saída em: <a href="https://lpsoares.github.io/Renderizador/index.html">https://lpsoares.github.io/Renderizador/index.html</a></p>
-<p>(fizemos alguns truques com o X_ITE para ele mostrar os pontos nas posições desejada, em uma cena 3D o resultado será outro)</p>
+<p>(fizemos alguns truques com o X_ITE para ele mostrar os pontos nas posições desejadas, em uma cena 3D o resultado será outro)</p>
 <h2 id="entrega">Entrega</h2>
 <p>Para entregar o projeto use o Github. Deixe seu código minimamente documentado e garanta que ele está rodando corretamente. Se quiser deixar o código fechado, não esqueça de dar acesso para o professor ao repositório.</p>
 <h2 id="honestidade-academica">Honestidade acadêmica</h2>

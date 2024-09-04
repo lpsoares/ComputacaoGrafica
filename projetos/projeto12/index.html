@@ -184,12 +184,12 @@
       <ul>
         
           <li class="ah-toc-item">
-            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
+            <a href="#codigo-base">Código Base</a>
           </li>
           
         
           <li class="ah-toc-item">
-            <a href="#codigo-base">Código Base</a>
+            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
           </li>
           
         
@@ -249,6 +249,8 @@
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou, senão suporemos mesmo link e grupo da entrega anteriore).</p>
 <p><strong>Entrega:</strong> individual ou duplas.</p>
 <p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa segunda parte você deverá tratar objetos 3D, pela implementação dos nós <code>TriangleSet</code>, . Além disso, você deverá usar os dados (posição, fov, orientação) da câmera na implementação do nó <code>viewpoint</code>. Já para posicionar os objetos no espaço do mundo você deverá implementar o nó <code>Transform_in</code>. No final, você terá um renderizador funcional que rodará por software.</p>
+<h2 id="codigo-base">Código Base</h2>
+<p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.</p>
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
 <p>O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
 <ul>
@@ -265,18 +267,8 @@
 <p><strong>Tarefa 4:</strong> fazer as transformações para coordenadas da tela (2,5 ponto)</p>
 </li>
 </ul>
-<p>Essas tarefas devem ser aplicadas nos exemplos: <code>8 - um_tri</code>; <code>9 - var_tri</code>; <code>10 - zoom</code>.</p>
-<h2 id="codigo-base">Código Base</h2>
-<p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.</p>
-<p>Para esse fase do projeto teste os exemplos 3D, no caso os testes de 9 até 11.</p>
 <p>Implemente as funções <code>GL.triangleSet()</code>, <code>GL.viewpoint()</code>, <code>GL.transform_in()</code>.</p>
-<p>Caso o professor oriente atualizar o seu fork, faça os seguintes passos:</p>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git remote add upstream https://github.com/lpsoares/Renderizador
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git pull upstream master
-</code></pre></div>
-<p>Cuidado para não comprometer seus dados, para atualizar seus dados vocês podem precisar de algo como:</p>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git push origin master --force
-</code></pre></div>
+<p>Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: <em>um_tri, var_tri, zoom</em></p>
 <h2 id="instrucoes">Instruções</h2>
 <p>Como recomendação: comece verificando se as operações de transformações geométricas de escala, rotação e translação funcionam monitorando se os pontos do triângulo estão indo para onde deveriam ir. Depois monte a matriz de visualização (câmera), e veja se estão coerentes as posições dos vértices. Aplique a projeção perspectiva até chegar nos vértices em coordenadas normalizadas e finalmente desenhe os polígonos nos pixels. </p>
 <p>Como recomendação, você pode ver como deveria ser a saída em: <a href="https://lpsoares.github.io/Renderizador/index.html">https://lpsoares.github.io/Renderizador/index.html</a></p>

@@ -215,8 +215,10 @@
 <p><strong>Projeto 1 – Rasterização : 4ª parte</strong></p>
 <p><strong>Data de entrega:</strong> 4/4/2023, via Blackboard.</p>
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou).</p>
-<p><strong>Entrega:</strong> individual.</p>
+<p><strong>Entrega:</strong> individual ou duplas.</p>
 <p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa quarta parte você deverá implementar um sistema de anti-aliasing com supersampling, implementar os recursos de interpolação de cores em geometrias, implementar um sistema de z-buffer (depth buffer) e finalmente composição para transparências. No final, você terá um renderizador funcional que rodará por software.</p>
+<h2 id="codigo-base">Código Base</h2>
+<p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.</p>
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
 <p>O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
 <ul>
@@ -229,17 +231,8 @@
 <li><strong>Tarefa 3</strong>: implementar algoritmo de visibilidade (Z-buffer) (2 pontos no total)</li>
 <li><strong>Tarefa 4</strong>: implementar algoritmo de transparência (1 pontos no total)</li>
 </ul>
-<p>Essas tarefas devem ser aplicadas nos exemplos: <code>5 - tri_2d</code>; <code>14 - retang</code>, <code>15 - transp</code> e <code>16 - cores</code>;</p>
-<h2 id="codigo-base">Código Base</h2>
-<p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório pois novas atualização serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo.</p>
 <p>Implemente ou atualize as funções <code>GL.triangleSet()</code>, <code>GL.indexedFaceSet()</code> para conseguir usar os valores de interpolação usando o Z. Também precisará acessar as funções <code>Renderizador.setup()</code>, <code>Renderizador.pos()</code> (e eventualmente <code>Renderizador.pre()</code>) para configurar o sistema para o anti-aliasing e configurar o z-buffer.</p>
-<p>Caso o professor oriente atualizar o seu fork, faça os seguintes passos:</p>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git remote add upstream https://github.com/lpsoares/Renderizador
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git pull upstream master
-</code></pre></div>
-<p>Cuidado para não comprometer seus dados, para atualizar seus dados vocês pode precisar de algo como:</p>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git push origin master --force
-</code></pre></div>
+<p>Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: <em>retang, transp, cores</em></p>
 <h2 id="instrucoes">Instruções</h2>
 <p>Para os triângulos uma superamostragem de 2x2 já basta. Deixa a superamostragem ligada por padrão.</p>
 <p>Suponha que os objetos já estão na ordem para a transparência, não há necessidade de ordenar isso.</p>
