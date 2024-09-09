@@ -1,7 +1,7 @@
 
 **Projeto 1 – Rasterização : 3ª parte**
 
-**Data de entrega:** 20/3/2023, via Blackboard.
+**Data de entrega:** 13/9/2024, via Blackboard.
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
@@ -19,16 +19,26 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-* **Tarefa 1:** implementar as rotinas para desenhar malhas de triângulos (6 pontos)
-    - Fazer o desenho de TriangleStripSet (2 pontos)
-    - Fazer o desenho de IndexedTriangleStripSet (2 pontos)
-    - Fazer o desenho de IndexedFaceSet (2 pontos)
+* **Tarefa 1:** implementar as rotinas para desenhar malhas de triângulos
+    - Fazer o desenho de TriangleStripSet
+    - Fazer o desenho de IndexedTriangleStripSet
+    - Fazer o desenho de IndexedFaceSet
 
-* **Tarefa 2:** implementar os recursos para o grafo de cena, para transforms dentro de transforms (4 pontos)
+* **Tarefa 2:** implementar os recursos para o grafo de cena, para transforms dentro de transforms
 
 Implemente as funções `GL.triangleStripSet()`, `GL.indexedTriangleStripSet()`, `GL.indexedFaceSet()`, `GL.trasnform_in()`, `GL.transform_out()`
 
-Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *tira_tri, letras, avatar*
+Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas 
+
+| Exemplo         | Pontos |
+|-----------------|--------|
+| tiras.x3d       | 1      |
+| letras.x3d      | 1      |
+| leques.x3d      | 2      |
+| vertices10      | 1      |
+| bound500.x3d    | 1      |
+| avatar.x3d      | 2      |
+| girando.x3d     | 2      |
 
 
 ## Instruções

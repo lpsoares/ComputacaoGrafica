@@ -26,7 +26,19 @@ O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de
 
 Implemente as funções `GL.polypoint2D()`, `GL.polyline2D()` e `GL.triangleSet2D()`
 
-Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *pontos, linhas, octogono, linhas_fora, var_lin, circulo, tri_2D, helice, tri_alta*
+Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas 
+
+| Exemplo         | Pontos |
+|-----------------|--------|
+| pontos.x3d      | 1      |
+| linhas.x3d      | 1      |
+| octogono.x3d    | 1      |
+| linhas_fora.x3d | 2      |
+| var_lin.x3d     | 1      |
+| circulo.x3d     | 1      |
+| tri_2D.x3d      | 1      |
+| helice.x3d      | 1      |
+| tri_alta.x3d    | 1      |
 
 
 ## Instruções

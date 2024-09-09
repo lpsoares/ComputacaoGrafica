@@ -29,9 +29,13 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 
 Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`.
 
-Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *um_tri, var_tri, zoom*
+Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas 
 
-
+| Exemplo         | Pontos |
+|-----------------|--------|
+| um_tri.x3d      | 3      |
+| var_tri.x3d     | 4      |
+| zoom.x3d        | 3      |
 
 ## Instruções
 

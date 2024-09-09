@@ -29,8 +29,13 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
 
 Implemente ou atualize as funções `GL.triangleSet()`, `GL.indexedFaceSet()` para conseguir usar os valores de interpolação usando o Z. Também precisará acessar as funções `Renderizador.setup()`, `Renderizador.pos()` (e eventualmente `Renderizador.pre()`) para configurar o sistema para o anti-aliasing e configurar o z-buffer.
 
-Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *retang, transp, cores*
+Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas 
 
+| Exemplo         | Pontos |
+|-----------------|--------|
+| retang.x3d      | 4      |
+| transp.x3d      | 3      |
+| cores.x3d       | 3      |
 
 ## Instruções
 
