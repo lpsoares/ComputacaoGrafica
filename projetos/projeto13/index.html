@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Projeto13 - Computação Gráfica</title>
+        <title>Projeto 1.3 - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -197,7 +197,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Projetos</span>
     <ul>
       
@@ -213,6 +213,42 @@
   
     <li>
       <a href="../projeto12/">Projeto 1.2</a>
+    </li>
+  
+
+      
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">Projeto 1.3</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#codigo-base">Código Base</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#instrucoes">Instruções</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#entrega">Entrega</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#honestidade-academica">Honestidade acadêmica</a>
+          </li>
+          
+        
+      </ul>
     </li>
   
 
@@ -238,14 +274,18 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Projeto13</li>
+                  
+                    <li>Projetos</li>
+                  
+                
+                <li>Projeto 1.3</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <p><strong>Projeto 1 – Rasterização : 3ª parte</strong></p>
-<p><strong>Data de entrega:</strong> 20/3/2023, via Blackboard.</p>
+<p><strong>Data de entrega:</strong> 13/9/2024, via Blackboard.</p>
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou).</p>
 <p><strong>Entrega:</strong> individual ou duplas.</p>
 <p>Nesse projeto, você continuará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa terceira parte você deverá tratar objetos 3D, pela implementação dos nós <code>TriangleStripSet</code>, <code>IndexedTriangleStripSet</code>, <code>IndexedFaceSet</code> bem como tratar os grafos de cena, o que envolve maior suport para o <code>Transform</code>. No final, você terá um renderizador funcional que rodará por software.</p>
@@ -255,19 +295,57 @@
 <p>O projeto tem 2 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
 <ul>
 <li>
-<p><strong>Tarefa 1:</strong> implementar as rotinas para desenhar malhas de triângulos (6 pontos)</p>
+<p><strong>Tarefa 1:</strong> implementar as rotinas para desenhar malhas de triângulos</p>
 <ul>
-<li>Fazer o desenho de TriangleStripSet (2 pontos)</li>
-<li>Fazer o desenho de IndexedTriangleStripSet (2 pontos)</li>
-<li>Fazer o desenho de IndexedFaceSet (2 pontos)</li>
+<li>Fazer o desenho de TriangleStripSet</li>
+<li>Fazer o desenho de IndexedTriangleStripSet</li>
+<li>Fazer o desenho de IndexedFaceSet</li>
 </ul>
 </li>
 <li>
-<p><strong>Tarefa 2:</strong> implementar os recursos para o grafo de cena, para transforms dentro de transforms (4 pontos)</p>
+<p><strong>Tarefa 2:</strong> implementar os recursos para o grafo de cena, para transforms dentro de transforms</p>
 </li>
 </ul>
 <p>Implemente as funções <code>GL.triangleStripSet()</code>, <code>GL.indexedTriangleStripSet()</code>, <code>GL.indexedFaceSet()</code>, <code>GL.trasnform_in()</code>, <code>GL.transform_out()</code></p>
-<p>Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: <em>tira_tri, letras, avatar</em></p>
+<p>Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas </p>
+<table>
+<thead>
+<tr>
+<th>Exemplo</th>
+<th>Pontos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tiras.x3d</td>
+<td>1</td>
+</tr>
+<tr>
+<td>letras.x3d</td>
+<td>1</td>
+</tr>
+<tr>
+<td>leques.x3d</td>
+<td>2</td>
+</tr>
+<tr>
+<td>vertices10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>bound500.x3d</td>
+<td>1</td>
+</tr>
+<tr>
+<td>avatar.x3d</td>
+<td>2</td>
+</tr>
+<tr>
+<td>girando.x3d</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
 <h2 id="instrucoes">Instruções</h2>
 <p>Como recomendação, você pode ver como deveria ser a saída em: <a href="https://lpsoares.github.io/Renderizador/index.html">https://lpsoares.github.io/Renderizador/index.html</a></p>
 <h2 id="entrega">Entrega</h2>
@@ -281,6 +359,13 @@
       </main>
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
+          
+            <a href="../projeto12/"
+               class="ah-prev"
+               title="Projeto 1.2">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">Projeto 1.2</span>
+            </a>
           
           
         </div>
