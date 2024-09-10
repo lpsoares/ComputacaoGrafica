@@ -18,13 +18,13 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-* **Tarefa 1:** fazer as transformadas no modelo (2,5 pontos)
+* **Tarefa 1:** fazer as transformadas no modelo (2,5 pontos ANTIGO)
 
-* **Tarefa 2:** fazer as transformadas de câmera (2,5 pontos)
+* **Tarefa 2:** fazer as transformadas de câmera (2,5 pontos ANTIGO)
 
-* **Tarefa 3:** fazer as transformadas de projeção perspectiva (2,5 pontos)
+* **Tarefa 3:** fazer as transformadas de projeção perspectiva (2,5 pontos ANTIGO)
 
-* **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto)
+* **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto ANTIGO)
 
 
 Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`.
