@@ -35,7 +35,7 @@ Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado e
 | tiras.x3d       | 1      |
 | letras.x3d      | 1      |
 | leques.x3d      | 2      |
-| vertices10      | 1      |
+| vertices10.x3d  | 1      |
 | bound500.x3d    | 1      |
 | avatar.x3d      | 2      |
 | girando.x3d     | 2      |
