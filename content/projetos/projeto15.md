@@ -23,10 +23,6 @@ O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de
     - Cubo (2 pontos)
     - Esfera (2 pontos)
 
-* **Tarefa 2**: rasterizar aplicando a textura definida (6 pontos no total)
-    - Aplicando as textura por amostragem simples (4 pontos)
-    - Ajustando as texturas por cálculo do Mipmap (2 pontos)
-
 Implemente as funções `GL.box()`, `GL.sphere()` e faça os ajustes necessários na `GL.indexedFaceSet()`
 
 Para essa fase do projeto teste nos exemplos correspondentes fornecidos. Ou seja: *textura, texturas, primitivas*
