@@ -17,7 +17,7 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 ## Estrutura do Projeto
 
-O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
+O projeto tem 5 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
 * **Tarefa 1:** suavização dos triângulos por superamostragem
 * **Tarefa 2:** rasterizar interpolando as cores por vértices dos polígonos
