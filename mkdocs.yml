@@ -28,10 +28,10 @@ nav:
         - "10 - Mapeamento": aulas/10-mapeamento_de_texturas/index.md
         - "11 - Anti-aliasing e Visibilidade": aulas/11-aliasing_e_visibilidade/index.md
         - "12 - Revisão 3": aulas/12-revisao3_interpolacao_mipmap_visibilidade/index.md
-        # - "14 - Primitivas Geométricas": aulas/14-primitivas_geometricas/index.md
-        # - "15 - Materiais e Iluminação": aulas/15-materiais_e_iluminacao/index.md
-        # - "16 - Curvas e Animações": aulas/16-curvas_e_animacoes/index.md
-        # - "17 - Revisão 4": aulas/17-revisao4/index.md
+        - "13 - Primitivas Geométricas": aulas/13-primitivas_geometricas/index.md
+        - "14 - Materiais e Iluminação": aulas/14-materiais_e_iluminacao/index.md
+        - "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
+        - "16 - Revisão 4": aulas/16-revisao4/index.md
         # - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
         # - "19 - Shaders": aulas/19-shaders/index.md
         # - "20 - Programmable Shaders": aulas/20-programmable_shaders/index.md
