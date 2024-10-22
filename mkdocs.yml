@@ -32,18 +32,18 @@ nav:
         - "14 - Materiais e Iluminação": aulas/14-materiais_e_iluminacao/index.md
         - "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
         - "16 - Revisão 4": aulas/16-revisao4/index.md
-        # - "18 - Pipeline Gráfico": aulas/18-pipeline_grafico/index.md
-        # - "19 - Shaders": aulas/19-shaders/index.md
-        # - "20 - Programmable Shaders": aulas/20-programmable_shaders/index.md
-        # - "21 - Signed Distance Function": aulas/21-signed_distance_function/index.md
-        # - "22 - Geometrias": aulas/22-geometrias/index.md
-        # - "23 - Ray Marching": aulas/23-ray_marching/index.md
-        # - "24 - Sombras": aulas/24-sombras/index.md
-        # - "25 - Ray Tracing": aulas/25-ray_tracing/index.md
-        # - "26 - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
-        # - "27 - Aleatoriedade e Ruídos": aulas/27-aleatoriedade_e_ruidos/index.md
-        # - "28 - Revisão / Estúdio": aulas/28-revisao/index.md
-        
+        - "17 - Pipeline Gráfico": aulas/17-pipeline_grafico/index.md
+        # - "18 - Shaders": aulas/18-shaders/index.md
+        # - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
+        # - "20 - Ray Tracing": aulas/20-ray_tracing/index.md
+        # - "21 - Ray Tracing": aulas/21-ray_tracing2/index.md
+        # - "X - Programmable Shaders": aulas/20-programmable_shaders/index.md
+        # - "X - Signed Distance Function": aulas/21-signed_distance_function/index.md
+        # - "X - Geometrias": aulas/22-geometrias/index.md
+        # - "X - Ray Marching": aulas/23-ray_marching/index.md
+        # - "X - Sombras": aulas/24-sombras/index.md
+        # - "X - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
+        # - "X - Revisão / Estúdio": aulas/28-revisao/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
@@ -51,7 +51,6 @@ nav:
         - "Projeto 1.3": projetos/projeto13.md
         - "Projeto 1.4": projetos/projeto14.md
         - "Projeto 1.5": projetos/projeto15.md
-        # - "Projeto 1.6": projetos/projeto16.md
         # - "Projeto 2.1": projetos/projeto21.md
         # - "Projeto 2.2": projetos/projeto22.md
         # - "Projeto 2.3": projetos/projeto23.md
