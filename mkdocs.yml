@@ -33,7 +33,7 @@ nav:
         - "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
         - "16 - Revisão 4": aulas/16-revisao4/index.md
         - "17 - Pipeline Gráfico": aulas/17-pipeline_grafico/index.md
-        # - "18 - Shaders": aulas/18-shaders/index.md
+        - "18 - Shaders": aulas/18-shaders/index.md
         # - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
         # - "20 - Ray Tracing": aulas/20-ray_tracing/index.md
         # - "21 - Ray Tracing": aulas/21-ray_tracing2/index.md
