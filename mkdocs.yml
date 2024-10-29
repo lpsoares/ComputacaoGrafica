@@ -34,7 +34,7 @@ nav:
         - "16 - Revisão 4": aulas/16-revisao4/index.md
         - "17 - Pipeline Gráfico": aulas/17-pipeline_grafico/index.md
         - "18 - Shaders": aulas/18-shaders/index.md
-        # - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
+        - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
         # - "20 - Ray Tracing": aulas/20-ray_tracing/index.md
         # - "21 - Ray Tracing": aulas/21-ray_tracing2/index.md
         # - "X - Programmable Shaders": aulas/20-programmable_shaders/index.md
@@ -51,7 +51,7 @@ nav:
         - "Projeto 1.3": projetos/projeto13.md
         - "Projeto 1.4": projetos/projeto14.md
         - "Projeto 1.5": projetos/projeto15.md
-        # - "Projeto 2.1": projetos/projeto21.md
+        - "Projeto 2": projetos/projeto2.md
         # - "Projeto 2.2": projetos/projeto22.md
         # - "Projeto 2.3": projetos/projeto23.md
         # - "Projeto 2.4": projetos/projeto24.md
