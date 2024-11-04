@@ -35,8 +35,8 @@ nav:
         - "17 - Pipeline Gráfico": aulas/17-pipeline_grafico/index.md
         - "18 - Shaders": aulas/18-shaders/index.md
         - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
-        # - "20 - Ray Tracing": aulas/20-ray_tracing/index.md
-        # - "21 - Ray Tracing": aulas/21-ray_tracing2/index.md
+        - "20 - Ray Tracing 1": aulas/20-ray_tracing/index.md
+        - "21 - Ray Tracing 2": aulas/21-ray_tracing2/index.md
         # - "X - Programmable Shaders": aulas/20-programmable_shaders/index.md
         # - "X - Signed Distance Function": aulas/21-signed_distance_function/index.md
         # - "X - Geometrias": aulas/22-geometrias/index.md
@@ -52,8 +52,7 @@ nav:
         - "Projeto 1.4": projetos/projeto14.md
         - "Projeto 1.5": projetos/projeto15.md
         - "Projeto 2": projetos/projeto2.md
-        # - "Projeto 2.2": projetos/projeto22.md
-        # - "Projeto 2.3": projetos/projeto23.md
-        # - "Projeto 2.4": projetos/projeto24.md
+        - "Projeto 3": projetos/projeto3.md
+        
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html

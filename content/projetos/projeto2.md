@@ -35,4 +35,4 @@ Para entregar o projeto use o Shadetoy. Deixe seu código minimamente documentad
 
 ## Honestidade acadêmica
 
-As tarefas devem ser concluídas em dupla ou individualmente. Você está convidado a discutir as várias partes das tarefas com seus colegas, mas você deve implementar os algoritmos. Você não deve ficar olhando o código de seus colegas.
+As tarefas devem ser concluídas individualmente. Você está convidado a discutir as várias partes das tarefas com seus colegas, mas você deve implementar os algoritmos. Você não deve ficar olhando o código de seus colegas.
