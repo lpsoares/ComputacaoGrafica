@@ -1,7 +1,7 @@
 
 **Projeto 2 – Shaders : 3ª parte**
 
-**Data de entrega:** 13/11/2024, via Blackboard.
+**Data de entrega:** 18/11/2024, via Blackboard.
 
 **Link do Github:** enviar via Blackboard o link do git.
 
