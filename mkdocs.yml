@@ -23,7 +23,6 @@ nav:
         - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
         - "07 - Revisão 1": aulas/07-revisao1/index.md
         - "08 - Malhas e Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
-        # - "08x - Revisão 2": aulas/12-revisao2/index.md
         - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
         - "10 - Mapeamento": aulas/10-mapeamento_de_texturas/index.md
         - "11 - Anti-aliasing e Visibilidade": aulas/11-aliasing_e_visibilidade/index.md
@@ -37,13 +36,8 @@ nav:
         - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
         - "20 - Ray Tracing 1": aulas/20-ray_tracing/index.md
         - "21 - Ray Tracing 2": aulas/21-ray_tracing2/index.md
-        # - "X - Programmable Shaders": aulas/20-programmable_shaders/index.md
-        # - "X - Signed Distance Function": aulas/21-signed_distance_function/index.md
-        # - "X - Geometrias": aulas/22-geometrias/index.md
-        # - "X - Ray Marching": aulas/23-ray_marching/index.md
-        # - "X - Sombras": aulas/24-sombras/index.md
-        # - "X - Normal e Gradiente": aulas/26-normal_e_gradiente/index.md
-        # - "X - Revisão / Estúdio": aulas/28-revisao/index.md
+        - "22 - Ray Marching 1": aulas/22-ray_marching/index.md
+        - "23 - Ray Marching 2": aulas/23-ray_marching2/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
@@ -53,6 +47,7 @@ nav:
         - "Projeto 1.5": projetos/projeto15.md
         - "Projeto 2": projetos/projeto2.md
         - "Projeto 3": projetos/projeto3.md
+        - "Projeto 4": projetos/projeto4.md
         
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html

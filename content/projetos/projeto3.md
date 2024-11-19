@@ -1,5 +1,5 @@
 
-**Projeto 2 – Shaders : 3ª parte**
+**Projeto 3 – Ray Tracer**
 
 **Data de entrega:** 18/11/2024, via Blackboard.
 
