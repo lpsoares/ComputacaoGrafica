@@ -6,7 +6,7 @@ site_author: "Luciano Soares & Fabio Orfali"
 extra:
     materia: Computação Gráfica
     professor: Luciano Soares & Fabio Orfali
-    semestre: 2024/2
+    semestre: 2025/2
     url_acompanhamentos: http://localhost:8081
     id_curso: 10
 
@@ -16,38 +16,66 @@ nav:
 
     - Aulas:
         - "01 - Introdução": aulas/01-introducao/index.md
-        - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
-        - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
-        - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
-        - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
-        - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
-        - "07 - Revisão 1": aulas/07-revisao1/index.md
-        - "08 - Malhas e Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
-        - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
-        - "10 - Mapeamento": aulas/10-mapeamento_de_texturas/index.md
-        - "11 - Anti-aliasing e Visibilidade": aulas/11-aliasing_e_visibilidade/index.md
-        - "12 - Revisão 3": aulas/12-revisao3_interpolacao_mipmap_visibilidade/index.md
-        - "13 - Primitivas Geométricas": aulas/13-primitivas_geometricas/index.md
-        - "14 - Materiais e Iluminação": aulas/14-materiais_e_iluminacao/index.md
-        - "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
-        - "16 - Revisão 4": aulas/16-revisao4/index.md
-        - "17 - Pipeline Gráfico": aulas/17-pipeline_grafico/index.md
-        - "18 - Shaders": aulas/18-shaders/index.md
-        - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
-        - "20 - Ray Tracing 1": aulas/20-ray_tracing/index.md
-        - "21 - Ray Tracing 2": aulas/21-ray_tracing2/index.md
-        - "22 - Ray Marching 1": aulas/22-ray_marching/index.md
-        - "23 - Ray Marching 2": aulas/23-ray_marching2/index.md
+        # - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
+        # - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
+        # - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
+        # - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
+        # - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
+        # - "07 - Revisão 1": aulas/07-revisao1/index.md
+        # - "08 - Malhas e Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
+        # - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
+        # - "10 - Mapeamento": aulas/10-mapeamento_de_texturas/index.md
+        # - "11 - Anti-aliasing e Visibilidade": aulas/11-aliasing_e_visibilidade/index.md
+        # - "12 - Revisão 3": aulas/12-revisao3_interpolacao_mipmap_visibilidade/index.md
+        # - "13 - Primitivas Geométricas": aulas/13-primitivas_geometricas/index.md
+        # - "14 - Materiais e Iluminação": aulas/14-materiais_e_iluminacao/index.md
+        # - "15 - Curvas e Animações": aulas/15-curvas_e_animacoes/index.md
+        # - "16 - Revisão 4": aulas/16-revisao4/index.md
+        # - "17 - Pipeline Gráfico": aulas/17-pipeline_grafico/index.md
+        # - "18 - Shaders": aulas/18-shaders/index.md
+        # - "19 - Aleatoriedade e Ruídos": aulas/19-aleatoriedade_e_ruidos/index.md
+        # - "20 - Ray Tracing 1": aulas/20-ray_tracing/index.md
+        # - "21 - Ray Tracing 2": aulas/21-ray_tracing2/index.md
+        # - "22 - Ray Marching 1": aulas/22-ray_marching/index.md
+        # - "23 - Ray Marching 2": aulas/23-ray_marching2/index.md
+
+    - Edições Passadas:
+        - 2024:
+            - "01 - Introdução": edicoes/2024/01-introducao/index.md
+            - "02 - Desenhando Triângulos": edicoes/2024/02-desenhando_triangulos/index.md
+            - "03 - Renderização e Transformações Geométricas": edicoes/2024/03-renderizacao_transformacoes/index.md
+            - "04 - Coordenadas Homogêneas e Quatérnios": edicoes/2024/04-coordenadas_homogeneas_e_quaternios/index.md
+            - "05 - Sistemas de Coordenadas": edicoes/2024/05-sistemas_de_coordenadas/index.md
+            - "06 - Projeções Perspectiva": edicoes/2024/06-projecoes_perspectiva/index.md
+            - "07 - Revisão 1": edicoes/2024/07-revisao1/index.md
+            - "08 - Malhas e Grafo de Cena": edicoes/2024/08-malhas_e_grafo_de_cena/index.md
+            - "08x - Revisão 2": edicoes/2024/08x-revisao2_malhas_grafoCena/index.md
+            - "09 - Interpolação em Triângulos": edicoes/2024/09-interpolacao_em_triangulos/index.md
+            - "10 - Mapeamento": edicoes/2024/10-mapeamento_de_texturas/index.md
+            - "11 - Anti-aliasing e Visibilidade": edicoes/2024/11-aliasing_e_visibilidade/index.md
+            - "12 - Revisão 3": edicoes/2024/12-revisao3_interpolacao_mipmap_visibilidade/index.md
+            - "13 - Primitivas Geométricas": edicoes/2024/13-primitivas_geometricas/index.md
+            - "14 - Materiais e Iluminação": edicoes/2024/14-materiais_e_iluminacao/index.md
+            - "15 - Curvas e Animações": edicoes/2024/15-curvas_e_animacoes/index.md
+            - "16 - Revisão 4": edicoes/2024/16-revisao4/index.md
+            - "17 - Pipeline Gráfico": edicoes/2024/17-pipeline_grafico/index.md
+            - "18 - Shaders": edicoes/2024/18-shaders/index.md
+            - "19 - Aleatoriedade e Ruídos": edicoes/2024/19-aleatoriedade_e_ruidos/index.md
+            - "20 - Ray Tracing 1": edicoes/2024/20-ray_tracing/index.md
+            - "21 - Ray Tracing 2": edicoes/2024/21-ray_tracing2/index.md
+            - "22 - Ray Marching 1": edicoes/2024/22-ray_marching/index.md
+            - "23 - Ray Marching 2": edicoes/2024/23-ray_marching2/index.md
 
     - Projetos:
-        - "Projeto 1.1": projetos/projeto11.md
-        - "Projeto 1.2": projetos/projeto12.md
-        - "Projeto 1.3": projetos/projeto13.md
-        - "Projeto 1.4": projetos/projeto14.md
-        - "Projeto 1.5": projetos/projeto15.md
-        - "Projeto 2": projetos/projeto2.md
-        - "Projeto 3": projetos/projeto3.md
-        - "Projeto 4": projetos/projeto4.md
+        pass
+        # - "Projeto 1.1": projetos/projeto11.md
+        # - "Projeto 1.2": projetos/projeto12.md
+        # - "Projeto 1.3": projetos/projeto13.md
+        # - "Projeto 1.4": projetos/projeto14.md
+        # - "Projeto 1.5": projetos/projeto15.md
+        # - "Projeto 2": projetos/projeto2.md
+        # - "Projeto 3": projetos/projeto3.md
+        # - "Projeto 4": projetos/projeto4.md
         
 
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html
