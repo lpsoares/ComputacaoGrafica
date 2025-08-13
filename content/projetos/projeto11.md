@@ -1,7 +1,7 @@
 
 **Projeto 1 – Rasterização : 1ª parte**
 
-**Data de entrega:** 14/8/2024, via Blackboard.
+**Data de entrega:** 19/8/2025, via Blackboard.
 
 **Link do Github:** enviar via Blackboard.
 
@@ -18,11 +18,11 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-* **Tarefa 1:** desenho de pontos coloridos no framebuffer (1 pontos ANTIGO)
+* **Tarefa 1:** desenho de pontos coloridos no framebuffer
 
-* **Tarefa 2:** desenho de linhas coloridas no framebuffer (4 pontos ANTIGO)
+* **Tarefa 2:** desenho de linhas coloridas no framebuffer
 
-* **Tarefa 3:** desenho de triângulos coloridos no framebuffer (5 pontos ANTIGO)
+* **Tarefa 3:** desenho de triângulos coloridos no framebuffer
 
 Implemente as funções `GL.polypoint2D()`, `GL.polyline2D()` e `GL.triangleSet2D()`
 

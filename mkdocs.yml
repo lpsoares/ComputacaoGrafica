@@ -16,7 +16,7 @@ nav:
 
     - Aulas:
         - "01 - Introdução": aulas/01-introducao/index.md
-        # - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
+        - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
         # - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
         # - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
         # - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
@@ -67,8 +67,7 @@ nav:
             - "23 - Ray Marching 2": edicoes/2024/23-ray_marching2/index.md
 
     - Projetos:
-        pass
-        # - "Projeto 1.1": projetos/projeto11.md
+        - "Projeto 1.1": projetos/projeto11.md
         # - "Projeto 1.2": projetos/projeto12.md
         # - "Projeto 1.3": projetos/projeto13.md
         # - "Projeto 1.4": projetos/projeto14.md
