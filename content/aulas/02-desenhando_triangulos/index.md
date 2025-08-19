@@ -11,4 +11,5 @@ Nesta aula estudaremos como implementar em um renderizador o desenho de triângu
 
 # Atividades
 
-[Atividade 1 - renderizando](Atividade1_rasterizando.docx)
+[Atividade - renderizando triângulos](atividade_renderizando_triangulos.ipynb)
+<!-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lpsoares/ComputacaoGrafica/blob/main/content/aulas/01-introducao/atividade_desenho_de_uma_linha.ipynb) -->
