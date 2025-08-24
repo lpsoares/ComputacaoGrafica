@@ -1,7 +1,7 @@
 
 **Projeto 1 – Rasterização : 2ª parte**
 
-**Data de entrega:** 4/9/2024, via Blackboard.
+**Data de entrega:** 2/9/2024, via Blackboard.
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou, senão suporemos mesmo link e grupo da entrega anteriore).
 
@@ -18,13 +18,13 @@ O código base para o projeto pode ser encontrado em: [https://github.com/lpsoar
 
 O projeto tem 4 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.
 
-* **Tarefa 1:** fazer as transformadas no modelo (2,5 pontos ANTIGO)
+* **Tarefa 1:** fazer as transformadas no modelo
 
-* **Tarefa 2:** fazer as transformadas de câmera (2,5 pontos ANTIGO)
+* **Tarefa 2:** fazer as transformadas de câmera
 
-* **Tarefa 3:** fazer as transformadas de projeção perspectiva (2,5 pontos ANTIGO)
+* **Tarefa 3:** fazer as transformadas de projeção perspectiva
 
-* **Tarefa 4:** fazer as transformações para coordenadas da tela (2,5 ponto ANTIGO)
+* **Tarefa 4:** fazer as transformações para coordenadas da tela
 
 
 Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()`.
