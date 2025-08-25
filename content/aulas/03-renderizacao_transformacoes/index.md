@@ -8,6 +8,6 @@ Nesta aula veremos algumas formas de renderização e depois estudaremos como re
 
 # Atividades
 
-[Atividade 1 - Transformações Geométricas - Parte 1](atividade_trasnformacoes_geometricas_Parte1.ipynb)
+[Atividade 1 - Transformações Geométricas - Parte 1](atividade_transformacoes_geometricas_Parte1.ipynb)
 
-[Atividade 2 - Transformações Geométricas - Parte 2](atividade_trasnformacoes_geometricas_Parte2.ipynb)
+[Atividade 2 - Transformações Geométricas - Parte 2](atividade_transformacoes_geometricas_Parte2.ipynb)
