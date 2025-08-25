@@ -8,6 +8,6 @@ Nesta aula veremos mais sobre projeções perspectiva, como os artistas lidavam 
 
 # Atividades
 
-[Atividade — desenho de um cubo](Atividade_desenho_de_um_cubo.docx)
+[Atividade — desenho de um cubo](atividade_projecao_de_cubo.ipynb)
 
-[Atividade](atividade.ipynb)
+[Atividade - projeções](atividade_projecoes.ipynb)

@@ -8,4 +8,4 @@ Nesta aula veremos os fundamentos para trabalhar com sistemas de coordenadas, co
 
 # Atividades
 
-[Atividade](atividade.ipynb)
+[Atividade - sistema de coordenadas](atividade_sistema_de_coordenadas.ipynb)
