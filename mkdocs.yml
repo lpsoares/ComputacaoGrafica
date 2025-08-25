@@ -20,7 +20,7 @@ nav:
         - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
         - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
         - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
-        # - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
+        - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
         # - "07 - Revisão 1": aulas/07-revisao1/index.md
         # - "08 - Malhas e Grafo de Cena": aulas/08-malhas_e_grafo_de_cena/index.md
         # - "09 - Interpolação em Triângulos": aulas/09-interpolacao_em_triangulos/index.md
