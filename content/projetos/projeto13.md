@@ -1,7 +1,7 @@
 
 **Projeto 1 – Rasterização : 3ª parte**
 
-**Data de entrega:** 13/9/2024, via Blackboard.
+**Data de entrega:** 14/9/2025, via Blackboard.
 
 **Link do Github:** enviar via Blackboard (se ainda não enviou).
 
