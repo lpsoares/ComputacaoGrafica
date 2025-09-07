@@ -23,8 +23,8 @@ nav:
         - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
         - "07 - Malhas e Grafo de Cena": aulas/07-malhas_e_grafo_de_cena/index.md
         - "08 - Interpolação em Triângulos": aulas/08-interpolacao_em_triangulos/index.md
-        # - "09 - Mapeamento": aulas/09-mapeamento_de_texturas/index.md
-        # - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
+        - "09 - Mapeamento de Texturas": aulas/09-mapeamento_de_texturas/index.md
+        - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
         # - "11 - Revisão 3": aulas/11-revisao3_interpolacao_mipmap_visibilidade/index.md
         # - "12 - Primitivas Geométricas": aulas/12-primitivas_geometricas/index.md
         # - "13 - Materiais e Iluminação": aulas/13-materiais_e_iluminacao/index.md
@@ -39,10 +39,24 @@ nav:
         # - "22 - Ray Marching 2": aulas/23-ray_marching2/index.md
 
     - Revisões:
-        - "Revisão 1": revisoes/01-revisao_transformacoes/index.md
-        - "Revisão 2": revisoes/02-revisao_malhas_grafoCena/index.md
-        - "Revisão 3": revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
-        - "Revisão 4": revisoes/04-revisao/index.md
+        - "Transformações e Projeções": revisoes/01-revisao_transformacoes_e_projecoes/index.md
+        - "Malhas e Grafo de Cena": revisoes/02-revisao_malhas_grafodecena/index.md
+        - "Interpolação, Visibilidade e Mipmaps": revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
+        # - "Revisão 4": revisoes/04-revisao/index.md
+
+    - Extra:
+        - "Filtragem em Mapeamento de Texturas": extra/filtragem_em_mapeamento_de_texturas/index.md
+
+    - Projetos:
+        - "Projeto 1.1": projetos/projeto11.md
+        - "Projeto 1.2": projetos/projeto12.md
+        - "Projeto 1.3": projetos/projeto13.md
+        # - "Projeto 1.4": projetos/projeto14.md
+        # - "Projeto 1.5": projetos/projeto15.md
+        # - "Projeto 2": projetos/projeto2.md
+        # - "Projeto 3": projetos/projeto3.md
+        # - "Projeto 4": projetos/projeto4.md
+        
 
     - Edições Passadas:
         - 2024:
@@ -71,15 +85,6 @@ nav:
             - "22 - Ray Marching 1": edicoes/2024/22-ray_marching/index.md
             - "23 - Ray Marching 2": edicoes/2024/23-ray_marching2/index.md
 
-    - Projetos:
-        - "Projeto 1.1": projetos/projeto11.md
-        - "Projeto 1.2": projetos/projeto12.md
-        - "Projeto 1.3": projetos/projeto13.md
-        # - "Projeto 1.4": projetos/projeto14.md
-        # - "Projeto 1.5": projetos/projeto15.md
-        # - "Projeto 2": projetos/projeto2.md
-        # - "Projeto 3": projetos/projeto3.md
-        # - "Projeto 4": projetos/projeto4.md
-        
-
+    - Especificação X3D: https://www.web3d.org/specifications/X3Dv4/ISO-IEC19775-1v4-IS/
+    
     - Exemplos X3D: https://lpsoares.github.io/Renderizador/index.html

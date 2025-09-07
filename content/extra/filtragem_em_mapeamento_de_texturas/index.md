@@ -1,0 +1,9 @@
+# Filtragem em Mapeamento de Texturas
+
+Começaremos revisitando as superfícies parametrizadas, nas quais cada par $(u,v)$ em um plano é associado a um ponto $(x, y, z)$ no espaço. Os retalhos de uma superfície podem ser descritos a partir de vetores tangentes e derivadas parciais. Essa base teórica se conecta ao mapeamento de texturas, no qual a frequência de amostragem na tela se traduz em uma frequência no espaço da textura, buscando idealmente um mapeamento 1:1 entre pixels e texels. 
+
+Os desafios de amostragem aparecem em dois cenários principais: na ampliação (magnification), quando um mesmo texel influencia vários pixels, problema que pode ser tratado com filtros como o bilinear, que interpola 4 texels, ou o bicúbico, que interpola 16 texels; e na redução (minification), quando muitos texels contribuem para um único pixel na tela, o que pode gerar artefatos como moiré e aliasing se a amostragem for apenas pontual. Para lidar com a minificação, introduz-se o mipmap (L. Williams, 1983), que consiste em uma hierarquia de texturas com múltiplos níveis de resolução, em que cada nível é uma versão suavizada e subamostrada do nível anterior. O uso de mipmaps reduz artefatos e melhora a qualidade visual de objetos distantes, escolhendo automaticamente a resolução mais adequada para o nível de detalhe visível na tela. Para evitar transições abruptas entre os níveis, utiliza-se a filtragem trilinear, que realiza uma interpolação linear entre dois níveis adjacentes da hierarquia.
+
+<embed height="600" src="extra_filtragem_em_mapeamento_de_texturas.pdf" type="application/pdf" width="100%">
+[PDF](extra_filtragem_em_mapeamento_de_texturas.pdf)
+<!-- [PPT](extra_filtragem_em_mapeamento_de_texturas.pptx) -->
