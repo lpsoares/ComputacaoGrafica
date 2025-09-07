@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Index - Computação Gráfica</title>
+        <title>10 - Anti-aliasing e Visibilidade - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -100,7 +100,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Aulas</span>
     <ul>
       
@@ -168,6 +168,35 @@
   
 
       
+        
+  
+    <li>
+      <a href="../09-mapeamento_de_texturas/">09 - Mapeamento de Texturas</a>
+    </li>
+  
+
+      
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">10 - Anti-aliasing e Visibilidade</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#anti-aliasing-e-visibilidade">Anti-aliasing e Visibilidade</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#atividades">Atividades</a>
+          </li>
+          
+        
+      </ul>
+    </li>
+  
+
+      
     </ul>
   </li>
 
@@ -180,7 +209,7 @@
         
   
     <li>
-      <a href="../../revisoes/01-revisao_transformacoes/">Revisão 1</a>
+      <a href="../../revisoes/01-revisao_transformacoes_e_projecoes/">Transformações e Projeções</a>
     </li>
   
 
@@ -188,7 +217,7 @@
         
   
     <li>
-      <a href="../../revisoes/02-revisao_malhas_grafoCena/">Revisão 2</a>
+      <a href="../../revisoes/02-revisao_malhas_grafodecena/">Malhas e Grafo de Cena</a>
     </li>
   
 
@@ -196,7 +225,41 @@
         
   
     <li>
-      <a href="../../revisoes/03-revisao_interpolacao_mipmap_visibilidade/">Revisão 3</a>
+      <a href="../../revisoes/03-revisao_interpolacao_mipmap_visibilidade/">Interpolação, Visibilidade e Mipmaps</a>
+    </li>
+  
+
+      
+    </ul>
+  </li>
+
+            
+              
+  <li class="ah-togglable-item">
+    <span class="ah-togglable-handle">Extra</span>
+    <ul>
+      
+        
+  
+    <li>
+      <a href="../../extra/filtragem_em_mapeamento_de_texturas/">Filtragem em Mapeamento de Texturas</a>
+    </li>
+  
+
+      
+    </ul>
+  </li>
+
+            
+              
+  <li class="ah-togglable-item">
+    <span class="ah-togglable-handle">Projetos</span>
+    <ul>
+      
+        
+  
+    <li>
+      <a href="../../projetos/projeto11/">Projeto 1.1</a>
     </li>
   
 
@@ -204,7 +267,15 @@
         
   
     <li>
-      <a href="../../revisoes/04-revisao/">Revisão 4</a>
+      <a href="../../projetos/projeto12/">Projeto 1.2</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../../projetos/projeto13/">Projeto 1.3</a>
     </li>
   
 
@@ -424,28 +495,11 @@
 
             
               
-  <li class="ah-togglable-item">
-    <span class="ah-togglable-handle">Projetos</span>
-    <ul>
-      
-        
   
     <li>
-      <a href="../../projetos/projeto11/">Projeto 1.1</a>
+      <a href="https://www.web3d.org/specifications/X3Dv4/ISO-IEC19775-1v4-IS/">Especificação X3D</a>
     </li>
   
-
-      
-        
-  
-    <li>
-      <a href="../../projetos/projeto12/">Projeto 1.2</a>
-    </li>
-  
-
-      
-    </ul>
-  </li>
 
             
               
@@ -465,17 +519,24 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Index</li>
+                  
+                    <li>Aulas</li>
+                  
+                
+                <li>10 - Anti-aliasing e Visibilidade</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <h1 id="anti-aliasing-e-visibilidade">Anti-aliasing e Visibilidade</h1>
-<p>Nesta aula veremos recursos de anti-aliasing que evitam problemas como o serrilhamento das imagens. Também verremos algorítmos de visibilidade, no caso o de z-buffer, e também de transparência.</p>
-<p><embed height="600" src="aula11_aliasing_e_visibilidade.pdf" type="application/pdf" width="100%">
-<a href="aula11_aliasing_e_visibilidade.pdf">PDF</a>
-<a href="aula11_aliasing_e_visibilidade.pptx">PPT</a></p>
+<p>Nesta aula discutiremos técnicas de anti-aliasing, que buscam reduzir problemas como o serrilhamento de imagens, bem como algoritmos de visibilidade, com foco no Z-Buffer, e estratégias para tratar transparência em cenas 3D.</p>
+<p>O anti-aliasing (ou suavização de serrilhado) trata do problema dos jaggies, que ocorrem ao representar formas contínuas em um dispositivo de amostragem discreta, como a tela. Esse efeito resulta de uma discretização periódica das funções que descrevem a cena. Reconstruções mais fiéis podem ser obtidas por meio de amostragens mais densas. Uma técnica fundamental é o supersampling, em que múltiplas amostras são coletadas para cada pixel e suas cores são combinadas por média, produzindo bordas mais suaves e realistas.</p>
+<p>As técnicas de visibilidade abordam como determinar quais superfícies devem ser visíveis quando múltiplos polígonos competem pelo mesmo pixel. O Algoritmo do Pintor é uma abordagem conceitualmente simples, que desenha os polígonos de trás para frente, sobrescrevendo o framebuffer. No entanto, exige ordenação em profundidade e pode falhar em casos de interseção ou ciclos de sobreposição. A solução mais utilizada é o Z-Buffer, que mantém, além do framebuffer, um buffer de profundidade (depth buffer) armazenando o valor $z$ mais próximo para cada pixel. Isso permite decidir, de forma eficiente, se um novo fragmento deve sobrescrever o já armazenado.</p>
+<p>Por fim, o tratamento da transparência permite que objetos translúcidos revelem o que está atrás deles. O cálculo da cor resultante envolve combinar a cor armazenada no framebuffer com a nova cor do fragmento, ponderadas pelo coeficiente de transparência ($\alpha$). A prática comum é renderizar primeiro todos os objetos opacos com o Z-Buffer ativado e, em seguida, processar os objetos transparentes em ordem de profundidade (do mais distante para o mais próximo), garantindo uma composição correta.</p>
+<p><embed height="600" src="aula10_aliasing_e_visibilidade.pdf" type="application/pdf" width="100%">
+<a href="aula10_aliasing_e_visibilidade.pdf">PDF</a>
+<a href="aula10_aliasing_e_visibilidade.pptx">PPT</a></p>
 <h1 id="atividades">Atividades</h1>
 <p><a href="atividade.ipynb">Atividade</a></p>
 
@@ -486,6 +547,20 @@
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
           
+            <a href="../09-mapeamento_de_texturas/"
+               class="ah-prev"
+               title="09 - Mapeamento de Texturas">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">09 - Mapeamento de Texturas</span>
+            </a>
+          
+          
+            <a href="../../revisoes/01-revisao_transformacoes_e_projecoes/"
+               class="ah-next"
+               title="Transformações e Projeções">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">Transformações e Projeções</span>
+            </a>
           
         </div>
       </footer>
