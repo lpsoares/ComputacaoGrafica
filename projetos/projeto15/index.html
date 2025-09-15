@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Projeto15 - Computação Gráfica</title>
+        <title>Projeto 1.5 - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -184,6 +184,14 @@
   
 
       
+        
+  
+    <li>
+      <a href="../../aulas/11-materiais_e_iluminacao/">11 - Materiais e Iluminação</a>
+    </li>
+  
+
+      
     </ul>
   </li>
 
@@ -239,7 +247,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Projetos</span>
     <ul>
       
@@ -271,6 +279,42 @@
   
     <li>
       <a href="../projeto14/">Projeto 1.4</a>
+    </li>
+  
+
+      
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">Projeto 1.5</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#codigo-base">Código Base</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#estrutura-do-projeto">Estrutura do Projeto</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#instrucoes">Instruções</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#entrega">Entrega</a>
+          </li>
+          
+        
+          <li class="ah-toc-item">
+            <a href="#honestidade-academica">Honestidade acadêmica</a>
+          </li>
+          
+        
+      </ul>
     </li>
   
 
@@ -514,37 +558,45 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Projeto15</li>
+                  
+                    <li>Projetos</li>
+                  
+                
+                <li>Projeto 1.5</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <p><strong>Projeto 1 – Rasterização : 5ª parte</strong></p>
-<p><strong>Data de entrega:</strong> 23/10/2024, via Blackboard.</p>
+<p><strong>Data de entrega:</strong> 22/09/2025, via Blackboard.</p>
 <p><strong>Link do Github:</strong> enviar via Blackboard (se ainda não enviou).</p>
 <p><strong>Entrega:</strong> individual ou duplas.</p>
-<p>Nesse projeto, você finalizará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa sexta e última parte você deverá deverá renderizar primitivas geométricas (Cubos e Esferas) pela implementação dos nós <code>Box</code>, <code>Sphere</code>, <code>Cone</code> e <code>Cylinder</code> , bem como tratar iluminação e animações, para isso deverá implementar os nós <code>DirectionalLight</code>, <code>NavigationInfo</code>, <code>TimeSensor</code>, <code>SplinePositionInterpolator</code> e <code>OrientationInterpolator</code>, perceba que também terá de fazer ajustes nas suas rotinas de desenho de triângulos para que as informações de iluminação sejam adequadamente processadas. No final, você terá um renderizador funcional que rodará por software.</p>
+<p>Nesse projeto, você finalizará a implementação do rasterizador para arquivos X3D (limitado a poucos nós e atributos), nessa quinta e última parte você deverá deverá renderizar bem como tratar iluminação e animações, para isso deverá calcular os efeitos de iluminação usando os valores de <code>diffuseColor</code>, <code>specularColor</code> e <code>shininess</code> além de implementar os nós <code>DirectionalLight</code>, <code>NavigationInfo</code>, <code>TimeSensor</code>, <code>SplinePositionInterpolator</code> e <code>OrientationInterpolator</code>, perceba que também terá de fazer ajustes nas suas rotinas de desenho de triângulos para que as informações de iluminação sejam adequadamente processadas. Como opção extra você também poderá implementar as primitivas geométricas pela implementação dos nós <code>Box</code>, <code>Sphere</code>, <code>Cone</code> e <code>Cylinder</code>. No final, você terá um renderizador funcional que rodará por software. </p>
 <h2 id="codigo-base">Código Base</h2>
 <p>O código base para o projeto pode ser encontrado em: <a href="https://github.com/lpsoares/Renderizador">https://github.com/lpsoares/Renderizador</a>, você deverá fazer um Fork do repositório, pois atualizações serão feitas e você deverá atualizar seu projeto. Junto com o código virão uma série de exemplos que você poderá usar para testar seu código, contudo idealmente seu código deve funcionar para outras entradas além das do exemplo. Caso o professor oriente, faça a atualização do seu fork durante o curso.</p>
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
 <p>O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de pontos possíveis a adicionar na nota final. Algumas tarefas requerem apenas algumas linhas de código, enquanto outras são mais elaboradas. Você vai usar um código base em Python para a implementação do seu código.</p>
 <ul>
-<li><strong>Tarefa 1</strong>: implementar as primitivas geométricas 3D<ul>
+<li><strong>Tarefa 1:</strong> cálculo de iluminação<ul>
+<li>Usando as propriedades dos materiais</li>
+<li>Interpretando as luzes presente na cena</li>
+</ul>
+</li>
+<li><strong>Tarefa 2:</strong> animação<ul>
+<li>Interpolação suave de posição</li>
+<li>Interpolação de rotação</li>
+</ul>
+</li>
+<li><strong>Tarefa Extra</strong>: implementar as primitivas geométricas 3D<ul>
 <li>Cubo</li>
 <li>Esfera</li>
 <li>Cone</li>
 <li>Cylindro</li>
 </ul>
 </li>
-<li><strong>Tarefa 2:</strong> cálculo de iluminação</li>
-<li><strong>Tarefa 3:</strong> animação<ul>
-<li>Interpolação suave de posição</li>
-<li>Interpolação de rotação</li>
 </ul>
-</li>
-</ul>
-<p>Implemente as funções <code>GL.box()</code>, <code>GL.sphere()</code>, <code>GL.cone()</code> e <code>GL.cylinder()</code> para desenhar as primitivas. Também implemente as funções <code>GL.directionalLight()</code>, <code>GL.navigationInfo()</code>, <code>GL.timeSensor()</code>, <code>GL.splinePositionInterpolator()</code>, <code>GL.orientationInterpolator()</code> e atualize suas rotinas de desenho de poligonos para realizar o cálculo de iluminação de forma completa.</p>
+<p>Implemente as funções <code>GL.directionalLight()</code>, <code>GL.navigationInfo()</code>, <code>GL.timeSensor()</code>, <code>GL.splinePositionInterpolator()</code>, <code>GL.orientationInterpolator()</code> e atualize suas rotinas de desenho de poligonos para realizar o cálculo de iluminação de forma completa.</p>
 <p>Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas </p>
 <table>
 <thead>
@@ -555,32 +607,67 @@
 </thead>
 <tbody>
 <tr>
-<td>duas.x3d</td>
-<td>2</td>
-</tr>
-<tr>
-<td>outras_duas.x3d</td>
-<td>1</td>
-</tr>
-<tr>
 <td>difusos.x3d</td>
 <td>1</td>
 </tr>
 <tr>
-<td>caixas.x3d</td>
+<td>mineiro.x3d</td>
 <td>1</td>
 </tr>
 <tr>
-<td>esferas.x3d</td>
+<td>senoide_difusa.x3d</td>
+<td>2</td>
+</tr>
+<tr>
+<td>senoide_especular.x3d</td>
 <td>2</td>
 </tr>
 <tr>
 <td>onda.x3d</td>
-<td>2</td>
+<td>1</td>
 </tr>
 <tr>
 <td>piramide.x3d</td>
 <td>1</td>
+</tr>
+<tr>
+<td>avatar_animado.x3d</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>Como opção extra, implemente as funções <code>GL.box()</code>, <code>GL.sphere()</code>, <code>GL.cone()</code> e <code>GL.cylinder()</code> para desenhar as primitivas.</p>
+<table>
+<thead>
+<tr>
+<th>Exemplo Extra</th>
+<th>Pontos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>duas.x3d</td>
+<td>0</td>
+</tr>
+<tr>
+<td>outras_duas.x3d</td>
+<td>0</td>
+</tr>
+<tr>
+<td>caixas.x3d</td>
+<td>0</td>
+</tr>
+<tr>
+<td>esferas.x3d</td>
+<td>0</td>
+</tr>
+<tr>
+<td>voltas.x3d</td>
+<td>0</td>
+</tr>
+<tr>
+<td>danca.x3d</td>
+<td>0</td>
 </tr>
 </tbody>
 </table>
@@ -601,6 +688,20 @@
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
           
+            <a href="../projeto14/"
+               class="ah-prev"
+               title="Projeto 1.4">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">Projeto 1.4</span>
+            </a>
+          
+          
+            <a href="../../edicoes/2024/01-introducao/"
+               class="ah-next"
+               title="01 - Introdução">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">01 - Introdução</span>
+            </a>
           
         </div>
       </footer>
