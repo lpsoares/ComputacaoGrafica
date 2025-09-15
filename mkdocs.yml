@@ -25,11 +25,9 @@ nav:
         - "08 - Interpolação em Triângulos": aulas/08-interpolacao_em_triangulos/index.md
         - "09 - Mapeamento de Texturas": aulas/09-mapeamento_de_texturas/index.md
         - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
-        # - "11 - Revisão 3": aulas/11-revisao3_interpolacao_mipmap_visibilidade/index.md
-        # - "12 - Primitivas Geométricas": aulas/12-primitivas_geometricas/index.md
-        # - "13 - Materiais e Iluminação": aulas/13-materiais_e_iluminacao/index.md
-        # - "14 - Curvas e Animações": aulas/14-curvas_e_animacoes/index.md
-        # - "15 - Revisão 4": aulas/15-revisao4/index.md
+        - "11 - Materiais e Iluminação": aulas/11-materiais_e_iluminacao/index.md
+        # - "12 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
+        # - "13 - Primitivas Geométricas": aulas/13-primitivas_geometricas/index.md
         # - "16 - Pipeline Gráfico": aulas/16-pipeline_grafico/index.md
         # - "17 - Shaders": aulas/17-shaders/index.md
         # - "18 - Aleatoriedade e Ruídos": aulas/18-aleatoriedade_e_ruidos/index.md
@@ -51,8 +49,8 @@ nav:
         - "Projeto 1.1": projetos/projeto11.md
         - "Projeto 1.2": projetos/projeto12.md
         - "Projeto 1.3": projetos/projeto13.md
-        # - "Projeto 1.4": projetos/projeto14.md
-        # - "Projeto 1.5": projetos/projeto15.md
+        - "Projeto 1.4": projetos/projeto14.md
+        - "Projeto 1.5": projetos/projeto15.md
         # - "Projeto 2": projetos/projeto2.md
         # - "Projeto 3": projetos/projeto3.md
         # - "Projeto 4": projetos/projeto4.md
