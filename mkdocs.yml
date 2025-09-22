@@ -40,7 +40,7 @@ nav:
         - "Transformações e Projeções": revisoes/01-revisao_transformacoes_e_projecoes/index.md
         - "Malhas e Grafo de Cena": revisoes/02-revisao_malhas_grafodecena/index.md
         - "Interpolação, Visibilidade e Mipmaps": revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
-        # - "Revisão 4": revisoes/04-revisao/index.md
+        - "Iluminação e Animação": revisoes/04-revisao_iluminacao_animacao/index.md
 
     - Extra:
         - "Filtragem em Mapeamento de Texturas": extra/filtragem_em_mapeamento_de_texturas/index.md
