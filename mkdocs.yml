@@ -28,7 +28,7 @@ nav:
         - "11 - Materiais e Iluminação": aulas/11-materiais_e_iluminacao/index.md
         - "12 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
         - "13 - Pipeline Gráfico": aulas/13-pipeline_grafico/index.md
-        # - "17 - Shaders": aulas/17-shaders/index.md
+        # - "14 - Shaders": aulas/17-shaders/index.md
         # - "18 - Aleatoriedade e Ruídos": aulas/18-aleatoriedade_e_ruidos/index.md
         # - "19 - Ray Tracing 1": aulas/20-ray_tracing/index.md
         # - "20 - Ray Tracing 2": aulas/21-ray_tracing2/index.md
