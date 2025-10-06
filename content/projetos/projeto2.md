@@ -1,7 +1,7 @@
 
 **Projeto 2 – Shaders**
 
-**Data de entrega:** 15/10/2025, via Blackboard.
+**Data de entrega:** 20/10/2025, via Blackboard.
 
 **Link:** enviar via Blackboard o link do Shadertoy.
 
@@ -37,10 +37,10 @@ _C_
 _C+_
 
 - Qualquer tipo de aleatoriedade:
-- Grossura dos retângulos;
-- Cores;
-- Alterar resposta da frequência da musica;
-- Efeito de background;
+    - Grossura dos retângulos;
+    - Cores;
+    - Alterar resposta da frequência da musica;
+    - Efeito de background;
 - Glow/Neon (necessário utilizar uma SDF 2D de retângulo);
 - Controle de cores;
 
