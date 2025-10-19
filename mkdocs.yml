@@ -30,7 +30,7 @@ nav:
         - "13 - Pipeline Gráfico": aulas/13-pipeline_grafico/index.md
         - "14 - Shaders": aulas/14-shaders/index.md
         - "15 - Aleatoriedade e Ruídos": aulas/15-aleatoriedade_e_ruidos/index.md
-        # - "16 - Ray Tracing 1": aulas/16-ray_tracing/index.md
+        - "16 - Ray Tracing 1": aulas/16-ray_tracing/index.md
         # - "17 - Ray Tracing 2": aulas/17-ray_tracing2/index.md
         # - "18 - Ray Marching 1": aulas/18-ray_marching/index.md
         # - "19 - Ray Marching 2": aulas/19-ray_marching2/index.md
