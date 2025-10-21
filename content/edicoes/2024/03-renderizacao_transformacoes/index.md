@@ -4,7 +4,6 @@ Nesta aula veremos algumas formas de renderização e depois estudaremos como re
 
 <embed height="600" src="aula3_renderizacao_e_transformacoes_geometricas.pdf" type="application/pdf" width="100%">
 [PDF](aula3_renderizacao_e_transformacoes_geometricas.pdf)
-[PPT](aula3_renderizacao_e_transformacoes_geometricas.pptx)
 
 # Atividades
 

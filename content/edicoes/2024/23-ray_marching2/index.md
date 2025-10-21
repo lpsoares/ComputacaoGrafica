@@ -4,4 +4,3 @@ Nesta aula trabalharemos com uma técnicas de renderização baseada em SDFs. El
 
 <embed height="600" src="ray_marching_2.pdf" type="application/pdf" width="100%">
 [PDF](ray_marching_2.pdf)
-[PPT](ray_marching_2.pptx)

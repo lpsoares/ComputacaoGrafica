@@ -4,7 +4,6 @@ Nesta aula veremos as coordenadas homogênes para espaços 3D e depois iremos ex
 
 <embed height="600" src="aula4_coordenadas_homogeneas_e_quaternios.pdf" type="application/pdf" width="100%">
 [PDF](aula4_coordenadas_homogeneas_e_quaternios.pdf)
-[PPT](aula4_coordenadas_homogeneas_e_quaternios.pptx)
 
 # Atividades
 

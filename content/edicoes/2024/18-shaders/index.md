@@ -4,4 +4,3 @@ Nesta aula iremos estudar shaders no contexto do Fragment Shader onde veremos co
 
 <embed height="600" src="shaders.pdf" type="application/pdf" width="100%">
 [PDF](shaders.pdf)
-[PPT](shaders.pptx)

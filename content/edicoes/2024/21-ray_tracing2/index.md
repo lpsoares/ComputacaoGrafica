@@ -4,4 +4,3 @@ Nesta aula começaremos a desenvolver em Ray Tracing. Essa técnica permite cria
 
 <embed height="600" src="ray_tracing2.pdf" type="application/pdf" width="100%">
 [PDF](ray_tracing2.pdf)
-[PPT](ray_tracing2.pptx)

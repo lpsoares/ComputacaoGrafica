@@ -4,4 +4,3 @@ Nesta aula revisaremos questões de mapeamento de texturas, mipmaps, z-buffer e 
 
 <embed height="600" src="aula12_revisao3_interpolacao_mipmap_visibilidade.pdf" type="application/pdf" width="100%">
 [PDF](aula12_revisao3_interpolacao_mipmap_visibilidade.pdf)
-[PPT](aula12_revisao3_interpolacao_mipmap_visibilidade.pptx)

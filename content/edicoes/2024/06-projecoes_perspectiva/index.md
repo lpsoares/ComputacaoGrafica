@@ -4,7 +4,6 @@ Nesta aula veremos mais sobre projeções perspectiva, como os artistas lidavam 
 
 <embed height="600" src="aula6_projecoes_perspectiva.pdf" type="application/pdf" width="100%">
 [PDF](aula6_projecoes_perspectiva.pdf)
-[PPT](aula6_projecoes_perspectiva.pptx)
 
 # Atividades
 

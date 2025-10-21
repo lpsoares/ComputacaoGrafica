@@ -4,4 +4,3 @@ Nesta aula veremos as como podemos usar aleatoriedade e ruídos para por exemplo
 
 <embed height="600" src="aleatoriedade_e_ruidos.pdf" type="application/pdf" width="100%">
 [PDF](aleatoriedade_e_ruidos.pdf)
-[PPT](aleatoriedade_e_ruidos.pptx)

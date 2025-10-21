@@ -4,7 +4,6 @@ Nesta aula veremos recursos de anti-aliasing que evitam problemas como o serrilh
 
 <embed height="600" src="aula11_aliasing_e_visibilidade.pdf" type="application/pdf" width="100%">
 [PDF](aula11_aliasing_e_visibilidade.pdf)
-[PPT](aula11_aliasing_e_visibilidade.pptx)
 
 # Atividades
 
