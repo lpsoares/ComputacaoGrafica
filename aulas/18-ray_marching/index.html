@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Index - Computação Gráfica</title>
+        <title>18 - Ray Marching 1 - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -100,7 +100,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Aulas</span>
     <ul>
       
@@ -236,6 +236,22 @@
   
     <li>
       <a href="../17-ray_tracing2/">17 - Ray Tracing 2</a>
+    </li>
+  
+
+      
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">18 - Ray Marching 1</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#ray-marching">Ray Marching</a>
+          </li>
+          
+        
+      </ul>
     </li>
   
 
@@ -610,14 +626,21 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Index</li>
+                  
+                    <li>Aulas</li>
+                  
+                
+                <li>18 - Ray Marching 1</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <h1 id="ray-marching">Ray Marching</h1>
-<p>Nesta aula trabalharemos com uma técnicas de renderização baseada em SDFs. Ela permite criar extruturas 3D sofisticadas a partir de fórmulas matemáticas.</p>
+<p>Nesta aula exploraremos uma técnica de renderização baseada em SDFs chamada Ray Marching, que permite criar estruturas 3D complexas a partir de fórmulas matemáticas. Assim como o Ray Tracing, ela lança raios de uma câmera virtual em direção à cena, mas difere por não calcular interseções diretas: o Ray Marching aproxima-se das superfícies passo a passo ao longo do raio. Essa característica o torna ideal para representar formas suaves, fractais e volumes (como nuvens), difíceis de modelar com malhas poligonais.</p>
+<p>O método depende da Signed Distance Function (SDF), que fornece a menor distância entre um ponto e a superfície do objeto. Os raios partem da câmera (origem) com direção normalizada e “marcham” até se aproximarem da geometria. Por ser uma aproximação, o Ray Marching não atinge a precisão do Ray Tracing, mas permite criar efeitos visuais únicos.</p>
+<p>A iluminação é obtida a partir das normais da superfície, calculadas pelo gradiente da SDF, avaliando pequenas variações (ϵ) em x, y e z. A normal é o gradiente normalizado. A cor final resulta do produto escalar entre a normal e a direção da luz, geralmente com controle de saturação para limitar os valores entre 0 e 1.</p>
+<p>Por fim, a aula também aborda como aplicar transformações em objetos definidos por SDFs.</p>
 <p><embed height="600" src="ray_marching_1.pdf" type="application/pdf" width="100%">
 <a href="ray_marching_1.pdf">PDF</a>
 <a href="ray_marching_1.pptx">PPT</a></p>
@@ -629,6 +652,20 @@
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
           
+            <a href="../17-ray_tracing2/"
+               class="ah-prev"
+               title="17 - Ray Tracing 2">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">17 - Ray Tracing 2</span>
+            </a>
+          
+          
+            <a href="../../revisoes/01-revisao_transformacoes_e_projecoes/"
+               class="ah-next"
+               title="Transformações e Projeções">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">Transformações e Projeções</span>
+            </a>
           
         </div>
       </footer>
