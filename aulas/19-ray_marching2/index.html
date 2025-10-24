@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Index - Computação Gráfica</title>
+        <title>19 - Ray Marching 2 - Computação Gráfica</title>
       
     
     <link rel="stylesheet"
@@ -100,7 +100,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Aulas</span>
     <ul>
       
@@ -244,6 +244,22 @@
   
     <li>
       <a href="../18-ray_marching/">18 - Ray Marching 1</a>
+    </li>
+  
+
+      
+        
+  
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">19 - Ray Marching 2</span>
+      <ul>
+        
+          <li class="ah-toc-item">
+            <a href="#ray-marching-2">Ray Marching 2</a>
+          </li>
+          
+        
+      </ul>
     </li>
   
 
@@ -618,14 +634,18 @@
             <ul class="ah-breadcrumbs">
               
                 
-                <li>Index</li>
+                  
+                    <li>Aulas</li>
+                  
+                
+                <li>19 - Ray Marching 2</li>
             </ul>
             
             
           </div>
           <section class="progress-section show">
 <h1 id="ray-marching-2">Ray Marching 2</h1>
-<p>Nesta aula trabalharemos com uma técnicas de renderização baseada em SDFs. Ela permite criar extruturas 3D sofisticadas a partir de fórmulas matemáticas.</p>
+<p>Nesta aula, daremos continuidade ao estudo de Ray Marching com SDFs (Signed Distance Functions), explorando a criação de estruturas 3D complexas a partir de fórmulas matemáticas. Iniciaremos abordando o uso de cores em SDFs, utilizando uma estrutura vec4 para armazenar simultaneamente as componentes de cor (RGB) e a distância (alpha/w). Em seguida, estudaremos as operações booleanas: União, Interseção e Diferença, fundamentais para a composição de formas. Também introduziremos o conceito de Smooth Minimum (ou Smooth Union): uma versão suavizada da função min(), que permite combinar e fundir formas de maneira gradual, criando transições mais naturais entre superfícies próximas. Na sequência, discutiremos sombras e visibilidade, cobrindo desde técnicas de Shadow Mapping até recursos baseados em lançamento de raios (ray tracing). Por fim, apresentaremos a técnica de Ambient Occlusion (AO), detalhando seu papel na simulação realista de iluminação indireta e profundidade visual.</p>
 <p><embed height="600" src="ray_marching_2.pdf" type="application/pdf" width="100%">
 <a href="ray_marching_2.pdf">PDF</a>
 <a href="ray_marching_2.pptx">PPT</a></p>
@@ -637,6 +657,20 @@
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
           
+            <a href="../18-ray_marching/"
+               class="ah-prev"
+               title="18 - Ray Marching 1">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">18 - Ray Marching 1</span>
+            </a>
+          
+          
+            <a href="../../revisoes/01-revisao_transformacoes_e_projecoes/"
+               class="ah-next"
+               title="Transformações e Projeções">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">Transformações e Projeções</span>
+            </a>
           
         </div>
       </footer>
