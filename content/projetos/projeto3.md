@@ -27,6 +27,8 @@ __Ray Tracing__:
 - A: Adicione uma nova primitiva geometrica
 - A+: "Rotation", "Everything"
 
+gabarito: [https://gubebra.itch.io/raytracing](https://gubebra.itch.io/raytracing)
+
 <br>
 
 __Ray Marching__:
@@ -38,6 +40,7 @@ __Ray Marching__:
 - A: "Mod", "SoftShadows"
 - A+: Adicione uma nova primitiva geometrica ou "Fractal" ou "Weird". Você deve fazer sua própria função de fractal ou uma cena com uma geometria maluca.
 
+gabarito: [https://gubebra.itch.io/raymarching-webgpu](https://gubebra.itch.io/raymarching-webgpu)
 
 ## Entrega
 
