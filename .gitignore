@@ -1,7 +1,18 @@
 .DS_Store
 .vscode
 ~$*
-docs*/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MkDocs
+site/
+site*/
+
 env/
+venv/
+*.egg-info/
+
 .ipynb_checkpoints
 
