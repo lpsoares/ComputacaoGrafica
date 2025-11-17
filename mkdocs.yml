@@ -1,22 +1,109 @@
-INHERIT: "active-handout.yml"
-
 site_name: "Computação Gráfica"
 site_author: "Luciano Soares & Fabio Orfali"
 
-extra:
-    materia: Computação Gráfica
-    professor: Luciano Soares & Fabio Orfali
-    professor Auxiliar: Gustavo Braga
-    semestre: 2025/2
-    url_acompanhamentos: http://localhost:8081
-    id_curso: 10
+docs_dir: docs
+site_dir: site
 
+site_url: https://lpsoares.github.io/ComputacaoGrafica/
+repo_url: https://github.com/lpsoares/ComputacaoGrafica
+repo_name: lpsoares/ComputacaoGrafica
+edit_uri: edit/main/content/
+dev_addr: 127.0.0.1:8000
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+plugins:
+  - search:
+      lang: pt
+  - mkdocs-jupyter:
+      execute: false      # true/auto para executar notebooks no build
+      include_source: true
+      ignore_h1_titles: true
+      allow_errors: false
+      kernel_name: python3
+      show_input: true
+      include_requirejs: true
+  - macros
+  - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      locale: pt_BR
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      line_spans: __span
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  materia: Computação Gráfica
+  professor: Luciano Soares & Fabio Orfali
+  professor Auxiliar: Gustavo Braga
+  semestre: 2025/2
+  url_acompanhamentos: http://localhost:8081
+  id_curso: 10
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lpsoares
+
+hooks:
+  - hooks.py
+
+watch:
+  - docs
+  - mkdocs.yml
 
 nav:
     - Home: index.md
 
     - Aulas:
-        - "01 - Introdução": aulas/01-introducao/index.md
+        - "01 - Introdução2": aulas/01-introducao/index.md
         - "02 - Desenhando Triângulos": aulas/02-desenhando_triangulos/index.md
         - "03 - Renderização e Transformações Geométricas": aulas/03-renderizacao_transformacoes/index.md
         - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
@@ -54,8 +141,6 @@ nav:
         - "Projeto 1.5": projetos/projeto15.md
         - "Projeto 2": projetos/projeto2.md
         - "Projeto 3": projetos/projeto3.md
-        
-        
 
     - Edições Passadas:
         - 2024:
