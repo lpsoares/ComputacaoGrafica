@@ -3,13 +3,13 @@
 ---
 
 ### 📅 Período Letivo
-**2025-2**
+**2026-2**
 
 ### 👨‍🏫 Professores
 
 - **Luciano Pereira Soares** · [lpsoares@insper.edu.br](mailto:lpsoares@insper.edu.br)
-- **Fabio Orfali** · [fabioo1@insper.edu.br](mailto:fabioo1@insper.edu.br)
-- **Gustavo Braga** (Auxiliar) · [gustavobb1@insper.edu.br](mailto:gustavobb1@insper.edu.br)
+<!-- - **Fabio Orfali** · [fabioo1@insper.edu.br](mailto:fabioo1@insper.edu.br)
+- **Gustavo Braga** (Auxiliar) · [gustavobb1@insper.edu.br](mailto:gustavobb1@insper.edu.br) -->
 
 ### 🕐 Horários
 
@@ -17,11 +17,11 @@
 - **80 horas**
 
 #### Aulas
-- **Segundas-feiras:** 7:30 às 9:30 (Lab. de RV/Jogos)
-- **Quartas-feiras:** 7:30 às 9:30 (Lab. Ágil 1)
+- **Segundas-feiras:** 16:30 às 18:30 (Lab. de RV/Jogos)
+- **Quartas-feiras:** 16:30 às 18:30 (Lab. de RV/Jogos)
 
 #### Atendimento
-- **Segundas-feiras:** 9:30 às 11:00 (Lab. de RV/Jogos)
+- **Segundas-feiras:** 18:45 às 20:15 (Lab. de RV/Jogos)
 
 ---
 
