@@ -42,13 +42,12 @@ Rasterização; Ray tracing; Sistemas de coordenadas; Vetores, Geometria Analít
 
 ### 📊 Avaliação
 
-#### Projetos do Curso
-
-| Projeto | Peso |
+| Atividade | Peso |
 |---------|------|
-| **#1:** Rasterizador (CPU) | 40% |
-| **#2:** Shaders (GPU) | 20% |
-| **#3:** Ray Tracing E/OU Ray Marching | 40% |
+| **Projeto 1:** Rasterizador (CPU) | 30% |
+| **Projeto 2:** Shaders (GPU) | 20% |
+| **Projeto 3:** Ray Tracing E/OU Ray Marching | 30% |
+| **Apresentação:** Apresentação de Técnica Gráfica | 20% |
 
 __Entregas Parciais__ Todos os projetos terão entregas parciais.
 
