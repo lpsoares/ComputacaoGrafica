@@ -5,11 +5,6 @@ window.MathJax = {
     displayMath: [["\\[", "\\]"], ["$$", "$$"]],
     processEscapes: true,
     processEnvironments: true
-  },
-  options: {
-    // arithmatex: markdown via pymdownx | jp-RenderedMarkdown: células de notebook (nbconvert)
-    ignoreHtmlClass: ".*|",
-    processHtmlClass: "arithmatex|jp-RenderedMarkdown"
   }
 };
 
