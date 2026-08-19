@@ -1,0 +1,22 @@
+window.MathJax = {
+  tex: {
+    // $...$ e $$...$$ para notebooks (nbconvert não passa pelo arithmatex)
+    inlineMath: [["\\(", "\\)"], ["$", "$"]],
+    displayMath: [["\\[", "\\]"], ["$$", "$$"]],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    // arithmatex: markdown via pymdownx | jp-RenderedMarkdown: células de notebook (nbconvert)
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex|jp-RenderedMarkdown"
+  }
+};
+
+// Re-renderiza após navegação instantânea do Material (navigation.instant)
+document$.subscribe(() => {
+  MathJax.startup.output.clearCache();
+  MathJax.typesetClear();
+  MathJax.texReset();
+  MathJax.typesetPromise();
+});
