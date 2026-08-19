@@ -4,6 +4,10 @@ site_author: "Luciano Soares & Fabio Orfali"
 docs_dir: docs
 site_dir: site
 
+exclude_docs: |
+  edicoes/2024/**
+  edicoes/2025/**
+
 site_url: https://lpsoares.github.io/ComputacaoGrafica/
 repo_url: https://github.com/lpsoares/ComputacaoGrafica
 repo_name: lpsoares/ComputacaoGrafica
