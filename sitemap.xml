@@ -2,182 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/01-introducao/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/01-introducao/atividade_bresenham/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/01-introducao/atividade_desenho_de_uma_linha/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/02-desenhando_triangulos/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/02-desenhando_triangulos/atividade_renderizando_triangulos/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/03-renderizacao_transformacoes/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/03-renderizacao_transformacoes/atividade_transformacoes_geometricas_Parte1/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/03-renderizacao_transformacoes/atividade_transformacoes_geometricas_Parte2/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/04-coordenadas_homogeneas_e_quaternios/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/04-coordenadas_homogeneas_e_quaternios/atividade_numeros_complexos/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/04-coordenadas_homogeneas_e_quaternios/atividade_quaternios/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/04-coordenadas_homogeneas_e_quaternios/atividade_transformacoes_homogeneas/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/05-sistemas_de_coordenadas/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/05-sistemas_de_coordenadas/atividade_sistema_de_coordenadas/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/06-projecoes_perspectiva/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/06-projecoes_perspectiva/atividade_projecao_de_cubo/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://lpsoares.github.io/ComputacaoGrafica/aulas/06-projecoes_perspectiva/atividade_projecoes/</loc>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/extra/filtragem_em_mapeamento_de_texturas/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/extra/primitivas_geometricas/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/extra/primitivas_geometricas/atividade/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto11/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto12/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto13/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto14/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto15/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto2/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/projeto3/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto11/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto12/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto13/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto14/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto15/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto20/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto30/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2024/projeto40/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto11/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto12/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto13/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto14/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto15/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto2/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/projetos/2025/projeto3/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/01-revisao_transformacoes_e_projecoes/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/02-revisao_malhas_grafodecena/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/03-revisao_interpolacao_mipmap_visibilidade/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/04-revisao_iluminacao_animacao/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/X-aula_extra/21-signed_distance_function/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/X-aula_extra/26-normal_e_gradiente/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://lpsoares.github.io/ComputacaoGrafica/revisoes/X-aula_extra/intro-programmable_shaders/</loc>
-         <lastmod>2026-08-19</lastmod>
+         <lastmod>2026-08-25</lastmod>
     </url>
 </urlset>
