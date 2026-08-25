@@ -31,11 +31,11 @@ Implemente as funções `GL.triangleSet()`, `GL.viewpoint()`, `GL.transform_in()
 
 Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas 
 
-| Exemplo         | Pontos |
-|-----------------|--------|
-| um_tri.x3d      | 3      |
-| var_tri.x3d     | 4      |
-| zoom.x3d        | 3      |
+| Exemplo            | Pontos |
+|--------------------|--------|
+| um_triangulo.x3d   | 3      |
+| varios_triangs.x3d | 4      |
+| zoom.x3d           | 3      |
 
 ## Instruções
 

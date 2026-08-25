@@ -24,21 +24,21 @@ O projeto tem 3 partes principais, e cada tarefa concluída leva a um número de
 
 * **Tarefa 3:** desenho de triângulos coloridos no framebuffer
 
-Implemente as funções `GL.polypoint2D()`, `GL.polyline2D()` e `GL.triangleSet2D()`
+Implemente as funções `GL.polypoint2D()`, `GL.polyline2D()`, `circle2D()`, `GL.triangleSet2D()`
 
 Teste os exemplos correspondentes. Conforme o exemplo for similar ao resultado esperado você obterá as notas 
 
-| Exemplo         | Pontos |
-|-----------------|--------|
-| pontos.x3d      | 1      |
-| linhas.x3d      | 1      |
-| octogono.x3d    | 1      |
-| linhas_fora.x3d | 2      |
-| var_lin.x3d     | 1      |
-| circulo.x3d     | 1      |
-| tri_2D.x3d      | 1      |
-| helice.x3d      | 1      |
-| tri_alta.x3d    | 1      |
+| Exemplo           | Pontos |
+|-------------------|--------|
+| aleatorios.x3d    | 1      |
+| linhas_cores.x3d  | 1      |
+| octogono.x3d      | 1      |
+| linhas_cruzes.x3d | 2      |
+| varias_linhas.x3d | 1      |
+| circulo.x3d       | 1      |
+| triangulos.x3d    | 1      |
+| helice.x3d        | 1      |
+| pontas.x3d        | 1      |
 
 
 ## Instruções
