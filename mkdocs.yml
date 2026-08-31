@@ -114,8 +114,8 @@ nav:
         - "04 - Coordenadas Homogêneas e Quatérnios": aulas/04-coordenadas_homogeneas_e_quaternios/index.md
         - "05 - Sistemas de Coordenadas": aulas/05-sistemas_de_coordenadas/index.md
         - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
-    #     - "07 - Malhas e Grafo de Cena": aulas/07-malhas_e_grafo_de_cena/index.md
-    #     - "08 - Interpolação em Triângulos": aulas/08-interpolacao_em_triangulos/index.md
+        - "07 - Malhas e Grafo de Cena": aulas/07-malhas_e_grafo_de_cena/index.md
+        - "08 - Interpolação em Triângulos": aulas/08-interpolacao_em_triangulos/index.md
     #     - "09 - Mapeamento de Texturas": aulas/09-mapeamento_de_texturas/index.md
     #     - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
     #     - "11 - Materiais e Iluminação": aulas/11-materiais_e_iluminacao/index.md
@@ -128,8 +128,8 @@ nav:
     #     - "18 - Ray Marching 1": aulas/18-ray_marching/index.md
     #     - "19 - Ray Marching 2": aulas/19-ray_marching2/index.md
 
-    # - Revisões:
-    #     - "Transformações e Projeções": revisoes/01-revisao_transformacoes_e_projecoes/index.md
+    - Revisões:
+        - "Transformações e Projeções": aulas/revisoes/01-revisao_transformacoes_e_projecoes/index.md
     #     - "Malhas e Grafo de Cena": revisoes/02-revisao_malhas_grafodecena/index.md
     #     - "Interpolação, Visibilidade e Mipmaps": revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
     #     - "Iluminação e Animação": revisoes/04-revisao_iluminacao_animacao/index.md
@@ -141,7 +141,7 @@ nav:
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
         - "Projeto 1.2": projetos/projeto12.md
-    #     - "Projeto 1.3": projetos/projeto13.md
+        - "Projeto 1.3": projetos/projeto13.md
     #     - "Projeto 1.4": projetos/projeto14.md
     #     - "Projeto 1.5": projetos/projeto15.md
     #     - "Projeto 2": projetos/projeto2.md
@@ -169,6 +169,11 @@ nav:
         - "17 - Ray Tracing 2": edicoes/2025/17-ray_tracing2/index.md
         - "18 - Ray Marching 1": edicoes/2025/18-ray_marching/index.md
         - "19 - Ray Marching 2": edicoes/2025/19-ray_marching2/index.md
+        # - Revisões:
+        #   - "Transformações e Projeções": edicoes/2025/aulas/revisoes/01-revisao_transformacoes_e_projecoes/index.md
+        #   - "Malhas e Grafo de Cena": edicoes/2025/aulas/revisoes/02-revisao_malhas_grafodecena/index.md
+        #   - "Interpolação, Visibilidade e Mipmaps": edicoes/2025/aulas/revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
+        #   - "Iluminação e Animação": edicoes/2025/aulas/revisoes/04-revisao_iluminacao_animacao/index.md
 
       - 2024:
         - "01 - Introdução": edicoes/2024/01-introducao/index.md
