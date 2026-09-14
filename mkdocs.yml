@@ -116,8 +116,8 @@ nav:
         - "06 - Projeções Perspectiva": aulas/06-projecoes_perspectiva/index.md
         - "07 - Malhas e Grafo de Cena": aulas/07-malhas_e_grafo_de_cena/index.md
         - "08 - Interpolação em Triângulos": aulas/08-interpolacao_em_triangulos/index.md
-    #     - "09 - Mapeamento de Texturas": aulas/09-mapeamento_de_texturas/index.md
-    #     - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
+        - "09 - Mapeamento de Texturas": aulas/09-mapeamento_de_texturas/index.md
+        - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
     #     - "11 - Materiais e Iluminação": aulas/11-materiais_e_iluminacao/index.md
     #     - "12 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
     #     - "13 - Pipeline Gráfico": aulas/13-pipeline_grafico/index.md
