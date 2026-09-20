@@ -118,7 +118,7 @@ nav:
         - "08 - Interpolação em Triângulos": aulas/08-interpolacao_em_triangulos/index.md
         - "09 - Mapeamento de Texturas": aulas/09-mapeamento_de_texturas/index.md
         - "10 - Anti-aliasing e Visibilidade": aulas/10-aliasing_e_visibilidade/index.md
-    #     - "11 - Materiais e Iluminação": aulas/11-materiais_e_iluminacao/index.md
+        - "11 - Materiais e Iluminação": aulas/11-materiais_e_iluminacao/index.md
     #     - "12 - Curvas e Animações": aulas/12-curvas_e_animacoes/index.md
     #     - "13 - Pipeline Gráfico": aulas/13-pipeline_grafico/index.md
     #     - "14 - Shaders": aulas/14-shaders/index.md
@@ -130,20 +130,20 @@ nav:
 
     - Revisões:
         - "Transformações e Projeções": aulas/revisoes/01-revisao_transformacoes_e_projecoes/index.md
-    #     - "Malhas e Grafo de Cena": revisoes/02-revisao_malhas_grafodecena/index.md
-    #     - "Interpolação, Visibilidade e Mipmaps": revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
+        - "Malhas e Grafo de Cena": revisoes/02-revisao_malhas_grafodecena/index.md
+        - "Interpolação, Visibilidade e Mipmaps": revisoes/03-revisao_interpolacao_mipmap_visibilidade/index.md
     #     - "Iluminação e Animação": revisoes/04-revisao_iluminacao_animacao/index.md
 
-    # - Extra:
-    #     - "Filtragem em Mapeamento de Texturas": extra/filtragem_em_mapeamento_de_texturas/index.md
-    #     - "Primitivas Geométricas": extra/primitivas_geometricas/index.md
+    - Extra:
+        - "Filtragem em Mapeamento de Texturas": extra/filtragem_em_mapeamento_de_texturas/index.md
+        - "Primitivas Geométricas": extra/primitivas_geometricas/index.md
 
     - Projetos:
         - "Projeto 1.1": projetos/projeto11.md
         - "Projeto 1.2": projetos/projeto12.md
         - "Projeto 1.3": projetos/projeto13.md
         - "Projeto 1.4": projetos/projeto14.md
-    #     - "Projeto 1.5": projetos/projeto15.md
+        - "Projeto 1.5": projetos/projeto15.md
     #     - "Projeto 2": projetos/projeto2.md
     #     - "Projeto 3": projetos/projeto3.md
 
