@@ -1,7 +1,7 @@
 
 **Projeto 2 – Shaders**
 
-**Data de entrega:** 20/10/2025, via Blackboard.
+**Data de entrega:** 23/10/2026, via Blackboard.
 
 **Link:** enviar via Blackboard o link do Shadertoy.
 
@@ -32,7 +32,7 @@ Recomendamos o uso [Shadertoy Custom Texures Chrome extension](https://chromeweb
 _C_
 
 - Circunferência reagindo a música (FFT ou amplitude global);
-- Retângulos em volta, reagindo a musica (devem ser posicionados seguindo a curva da circunferência (Obrigatório reagir ao FFT). Cada retângulo deve reagir à um canal do áudio;
+- Retângulos em volta, reagindo a musica (devem ser posicionados seguindo a curva da circunferência (Obrigatório reagir a música). Cada retângulo deve reagir à um canal do áudio;
 
 _C+_
 
