@@ -1,7 +1,7 @@
 
 **Projeto 3 – Renderizador Baseado em Raios**
 
-**Data de entrega:** 7/11/2024, via Blackboard.
+**Data de entrega:** 25/11/2026, via Blackboard.
 
 **Link do Github:** enviar via Blackboard o link do git.
 
