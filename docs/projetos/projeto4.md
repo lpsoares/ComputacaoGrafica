@@ -1,7 +1,7 @@
 
 **Projeto 4 – Apresentações sobre Técnica de Computação Gráfica**
 
-**Data de entrega:** 20/11/2026, via Blackboard.
+**Data de entrega:** 25/11/2026, via Blackboard.
 
 **Link do Github:** enviar via Blackboard o material (slides) da apresentação.
 
