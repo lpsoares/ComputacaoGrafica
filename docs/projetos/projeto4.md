@@ -1,52 +1,78 @@
 
 **Projeto 4 – Apresentações sobre Técnica de Computação Gráfica**
 
-**Data de entrega:** 25/11/2026, via Blackboard.
+**Data da apresentação/entrega:** 25/11/2026, via Blackboard.
 
 **Link do Github:** enviar via Blackboard o material (slides) da apresentação.
 
-**Entrega:** individual ou duplas.
-
-Nesse projeto, você irá implementar um renderizador usando rotinas baseadas em raios. Você poderá optar por implementar um Ray Tracing ou um Ray Marching com recursos do WGSL no código de referência do curso.
-
-- **Ray Tracing** [https://github.com/Gustavobb/raytracing-wgsl-template](https://github.com/Gustavobb/raytracing-wgsl-template)
-
-- **Ray Marching** [https://github.com/Gustavobb/raymarching-wgsl-template](https://github.com/Gustavobb/raymarching-wgsl-template)
+**Entrega:** duplas.
 
 ## Instruções
 
-Desenvolva em WGSL as novas rotinas. Conforme você implementar mais funcionalidades, terá melhores notas:
+Nesse projeto, você irá estudar e apresentar uma técnica avançada de computação gráfica. Escolha uma técnica e prepare uma apresentação de 7 minutos.
 
-__Ray Tracing__:
+### Sugestões de técnicas de Computação Gráfica
 
-- D: "Basic", "Metal", "Fuzz"
-- C: "Specular", "Emissive"
-- C+: "Dielectric", "Spheres", "Night"
-- B: "Cubes", "Cornell", "Mirror", "Infinite"
-- B+: "Bunny", "Suzanne" e Crie uma cena nova
-- A: Adicione uma nova primitiva geometrica
-- A+: "Rotation", "Everything"
+#### Modelagem e geometria
 
-gabarito: [https://gubebra.itch.io/raytracing](https://gubebra.itch.io/raytracing)
+- Superfícies de subdivisão: como uma malha simples se transforma em uma superfície suave.
+- Curvas e superfícies NURBS: representação e edição de formas suaves usada em CAD e modelagem.
+- Modelagem procedural com sistemas-L: gerar plantas, estruturas ou padrões por regras.
+- Deformação livre de forma (FFD): editar um objeto deformando uma grade que o envolve.
+- Geometria sólida construtiva (CSG): criar objetos combinando sólidos por união, interseção e diferença.
+- Gaussian Splatting (GS): criar objetos com Gaussian Splatting.
 
-<br>
+#### Animação e simulação
 
-__Ray Marching__:
+- Animação esquelética e skinning: deformar um personagem com base em um esqueleto.
+- Cinemática inversa: calcular a posição das articulações para atingir uma pose ou um alvo.
+- Animação facial com blend shapes: combinar formas para produzir expressões.
+- Simulação de tecidos: modelar roupas e tecidos com massas, molas ou métodos de dinâmica posicional.
+- Sistemas de partículas: criar fumaça estilizada, fogo, chuva, explosões ou multidões simples.
 
-- C: "Sphere", "SkyAndHS", "Multiple"
-- C+: "Rotation"
-- B: "Animation", "Outline"
-- B+: "Union", "Subtraction", "Intersection", "Blobs"
-- A: "Mod", "SoftShadows"
-- A+: Adicione uma nova primitiva geometrica ou "Fractal" ou "Weird". Você deve fazer sua própria função de fractal ou uma cena com uma geometria maluca.
+#### Simulação e efeitos visuais
 
-gabarito: [https://gubebra.itch.io/raymarching-webgpu](https://gubebra.itch.io/raymarching-webgpu)
+- Simulação de cabelo e pelos: modelar fios, volume e interação com movimento.
+- Multidões: gerar movimentos coordenados para muitos agentes, evitando colisões e mantendo variação.
+
+#### Imagem, textura e composição
+
+- Texturas sem emendas (seamless textures): criar padrões que se repetem sem bordas visíveis.
+- Texturização por projeção: aplicar imagens sobre modelos 3D a partir de câmeras ou projetores.
+
+#### Organização e desempenho de cenas
+
+- Culling de oclusão: deixar de processar objetos que estão escondidos atrás de outros.
+- Níveis de detalhe (LOD): usar modelos de complexidade diferente conforme a distância da câmera.
+
+#### Geometria computacional e processamento de malhas
+
+- Remalhamento adaptativo: redistribuir polígonos conforme curvatura, detalhe ou erro geométrico. (Gustavo e Lucas)
+- Análise espectral de malhas: usar autovetores do Laplaciano para estudar formas e realizar operações geométricas.
+- Superfícies implícitas neurais: representar geometria por funções contínuas e investigar reconstrução, edição e extração de malhas.
+
+#### Simulação física avançada
+
+- Método dos elementos finitos (FEM) em deformáveis: modelar elasticidade, plasticidade e materiais com diferentes propriedades.
+- Material Point Method (MPM): simular materiais que mudam de forma, como neve, areia e lama.
+- Métodos FLIP e APIC para fluidos: comparar formas de transferir velocidade entre partículas e grades.
+- Fratura e fragmentação: gerar rachaduras e separação de peças em objetos rígidos ou deformáveis.
+- Dinâmica de fios por hastes de Cosserat: modelar cabelo, cabos e cordas com flexão e torção.
+
+#### Animação e movimento de personagens
+
+- Animação muscular: gerar movimento a partir de músculos e tecidos simulados, em vez de controlar apenas o esqueleto.
+
+#### Computação gráfica em GPU
+
+- Texturização virtual: carregar partes de texturas muito grandes sob demanda, conforme a câmera se move.
+- Instanciamento de GPU: reaproveitar uma geometria e criar várias instâncias direto na GPU para otimizar a renderização.
+
 
 ## Entrega
 
-Para entregar o projeto armazene seu projeto em um repositório git e envie o link pelo Blackboard. Deixe seu código minimamente documentado e garanta que ele está rodando corretamente. Se quiser deixar o código fechado, não esqueça de dar acesso para o professor ao repositório.
-
+Para entregar a atividade, envie seus slides (PPT, PDF, etc) pelo link do Blackboard.
 
 ## Honestidade acadêmica
 
-As tarefas devem ser concluídas em dupla ou individualmente. Você está convidado a discutir as várias partes das tarefas com seus colegas, mas você deve implementar os algoritmos. Você não deve ficar olhando o código de seus colegas.
+As tarefas devem ser concluídas em dupla ou individualmente. Você está convidado a discutir as várias partes das tarefas com seus colegas, mas você deve preparar o material você mesmo.
